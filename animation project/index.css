@@ -1,0 +1,1036 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.navbar-nav .nav-link {
+    text-indent: 30px;
+    margin-left: 60px;
+    font-size: large;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-fluid .navbar-brand {
+    text-indent: 20px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 200%;
+}
+
+.carousel .carousel-inner {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    right: 12px;
+    bottom: 40px;
+}
+
+.carousel1 .carousel-inner .carousel-item .d-block {
+    width: 100%;
+    height: 100vh;
+}
+
+/* ........................................... */
+
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph {
+    width: 50%;
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 50px;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.paragraph button {
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffb320;
+    position: relative;
+    bottom: 270px;
+
+}
+
+.paragraph h1 {
+    position: relative;
+    bottom: 330px;
+}
+
+.paragraph p {
+    position: relative;
+    bottom: 300px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .paragraph {
+        font-size: 14px;
+    }
+}
+
+/* .......................... */
+.lats-name {
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+    background-color: black;
+    position: relative;
+    bottom: 194px;
+    overflow: hidden;
+}
+
+.lats-name .text .text1 {
+    width: 33%;
+    height: 30px;
+    position: relative;
+    top: 25px;
+    display: inline-block;
+    overflow: hidden;
+    animation: iron 10.5s linear infinite reverse;
+}
+
+.lats-name .text .text1 span {
+    background-color: #eb405d;
+    padding: 3px 24px;
+}
+
+.lats-name .text .text1 p {
+    text-align: center;
+    color: #fff;
+}
+
+/* .. .............*/
+.lats-name .text .text2 {
+    width: 33%;
+    height: 30px;
+    position: relative;
+    left: 30px;
+    top: 25px;
+    display: inline-block;
+    overflow: hidden;
+    animation: iron 10.5s linear infinite reverse;
+}
+
+.lats-name .text .text2 span {
+    background-color: #0bcf74;
+    padding: 3px 24px;
+}
+
+.lats-name .text .text2 p {
+    text-align: center;
+    color: #fff;
+}
+
+/* ........................... */
+.lats-name .text .text3 {
+    width: 33%;
+    height: 30px;
+    position: relative;
+    left: 30px;
+    top: 25px;
+    display: inline-block;
+    overflow: hidden;
+    animation: iron 10.5s linear infinite reverse;
+}
+
+.lats-name .text .text3 span {
+    background-color: #d40fe6;
+    padding: 3px 24px;
+}
+
+.lats-name .text .text3 p {
+    text-align: center;
+    color: #fff;
+}
+
+@keyframes iron {
+    from {
+        left: -890px;
+    }
+
+    to {
+        left: 1350px;
+    }
+}
+
+.test {
+    width: 30%;
+    height: 70px;
+    background-color: #ffb320;
+    position: relative;
+    bottom: 37px;
+
+}
+
+.test p {
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    top: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* ...........pro-section....... */
+.pro-section {
+    width: 87%;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 80px;
+}
+
+.pro-section .rom img {
+    width: 290px;
+    height: 70vh;
+
+}
+
+.pro-section .rom p {
+    width: 200px;
+    position: relative;
+    color: #fff;
+    bottom: 220px;
+    left: 20px;
+    text-align: center;
+}
+
+.pro-section .rom pre {
+    color: #fff;
+    position: relative;
+    left: 20px;
+    bottom: 200px;
+}
+
+.pro-section .rom span {
+    background-color: #eb405d;
+    padding: 5px 24px;
+    position: relative;
+    bottom: 200px;
+    right: 10px;
+}
+
+/*  */
+.pro-section .rom1 img {
+    width: 290px;
+    height: 70vh;
+
+}
+
+.pro-section .rom1 {
+    margin-left: 290px;
+    position: relative;
+    bottom: 631px;
+}
+
+.pro-section .rom1 p {
+    width: 200px;
+    position: relative;
+    color: #fff;
+    bottom: 220px;
+    left: 20px;
+    text-align: center;
+}
+
+.pro-section .rom1 pre {
+    color: #fff;
+    position: relative;
+    left: 20px;
+    bottom: 200px;
+}
+
+.pro-section .rom1 span {
+    background-color: #eb405d;
+    padding: 5px 24px;
+    position: relative;
+    bottom: 200px;
+    right: 10px;
+}
+
+/*  */
+.pro-section .rom2 img {
+    width: 290px;
+    height: 70vh;
+
+}
+
+.pro-section .rom2 {
+    margin-left: 580px;
+    position: relative;
+    bottom: 1262px;
+}
+
+.pro-section .rom2 p {
+    width: 200px;
+    position: relative;
+    color: #fff;
+    bottom: 220px;
+    left: 20px;
+    text-align: center;
+}
+
+.pro-section .rom2 pre {
+    color: #fff;
+    position: relative;
+    left: 20px;
+    bottom: 200px;
+}
+
+.pro-section .rom2 span {
+    background-color: #eb405d;
+    padding: 5px 24px;
+    position: relative;
+    bottom: 200px;
+    right: 10px;
+}
+
+/*  */
+.pro-section .rom3 img {
+    width: 290px;
+    height: 70vh;
+
+}
+
+.pro-section .rom3 {
+    margin-left: 870px;
+    position: relative;
+    bottom: 1893px;
+}
+
+.pro-section .rom3 p {
+    width: 200px;
+    position: relative;
+    color: #fff;
+    bottom: 220px;
+    left: 20px;
+    text-align: center;
+}
+
+.pro-section .rom3 pre {
+    color: #fff;
+    position: relative;
+    left: 20px;
+    bottom: 200px;
+}
+
+.pro-section .rom3 span {
+    background-color: #eb405d;
+    padding: 5px 24px;
+    position: relative;
+    bottom: 200px;
+    right: 10px;
+}
+
+/* ...................................... */
+.games-section {
+    width: 100%;
+    height: 125vh;
+    background-color: aliceblue;
+    background-image: url(/html/img/recent-game-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*  */
+.games-section span {
+    background-color: #eb405d;
+    padding: 5px 24px;
+    color: #fff;
+    text-align: center;
+    margin-left: 47%;
+    position: relative;
+    top: 80px;
+}
+
+.games-section h2 {
+    width: 400px;
+    height: 50px;
+    margin-left: 40%;
+    font-size: 35px;
+    font-weight: bolder;
+    position: relative;
+    top: 100px;
+}
+
+/*  */
+div.desc {
+    height: 170px;
+    background-color: #fff;
+    padding: 15px;
+    text-align: center;
+
+}
+
+div.gallery img {
+    width: 100%;
+    height: 250px;
+}
+
+div.gallery {
+    margin-left: 90px;
+    position: relative;
+    top: 150px;
+    width: 370px;
+    border: 1px solid rgb(191, 199, 198);
+}
+
+div.desc .comment {
+    font-weight: 300;
+    font-size: small;
+    cursor: pointer;
+    position: relative;
+    top: 60px;
+    right: 80px;
+}
+
+/* .. */
+div.desc1 {
+    height: 170px;
+    background-color: #fff;
+    padding: 15px;
+    text-align: center;
+
+}
+
+div.gallery1 img {
+    width: 100%;
+    height: 250px;
+}
+
+div.gallery1 {
+    margin-left: 488px;
+    position: relative;
+    bottom: 271px;
+    width: 370px;
+    border: 1px solid rgb(191, 199, 198);
+}
+
+div.desc1 .comment1 {
+    font-weight: 300;
+    font-size: small;
+    cursor: pointer;
+    position: relative;
+    top: 60px;
+    right: 80px;
+}
+
+/* ... */
+div.desc2 {
+    height: 170px;
+    background-color: #fff;
+    padding: 15px;
+    text-align: center;
+
+}
+
+div.gallery2 img {
+    width: 100%;
+    height: 250px;
+}
+
+div.gallery2 {
+    margin-left: 890px;
+    position: relative;
+    bottom: 692px;
+    width: 370px;
+    border: 1px solid rgb(191, 199, 198);
+}
+
+div.desc2 .comment2 {
+    font-weight: 300;
+    font-size: small;
+    cursor: pointer;
+    position: relative;
+    top: 60px;
+    right: 80px;
+}
+
+/* ...........doom-section........... */
+.doom-section {
+    width: 100%;
+    height: 77vh;
+    background-image: url(/html/img/pattern.png);
+}
+
+.doom-section .ment {
+    width: 15%;
+    height: 50px;
+    text-align: center;
+    margin-left: 45px;
+    position: relative;
+    top: 75px;
+    letter-spacing: 1.5px;
+    background-color: #fb6e10;
+}
+
+.doom-section .ment p {
+    color: #fff;
+    position: relative;
+    top: 5px;
+}
+
+.doom-section .craft {
+    width: 45%;
+    height: 50vh;
+    background-color: #2b2727;
+    margin-left: 45px;
+    position: relative;
+    top: 58px;
+}
+
+.doom-section .craft .premium {
+    width: 40%;
+    height: 30px;
+    background-color: #ffb130;
+    text-align: center;
+}
+
+.doom-section .craft .img img {
+    width: 120px;
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+
+.doom-section .craft .premium span {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.doom-section span.world {
+    color: #ffb130;
+    font-weight: bolder;
+    font-size: larger;
+    word-spacing: 2.5px;
+    position: relative;
+    bottom: 80px;
+    left: 180px;
+}
+
+.doom-section .craft p {
+    color: #585555;
+    margin-left: 140px;
+    font-size: small;
+    line-height: 35px;
+    position: relative;
+    bottom: 70px;
+}
+
+.doom-section .craft p span.priz {
+    color: #ffb130;
+
+}
+
+/* .. */
+.doom-section .craft1 {
+    width: 45%;
+    height: 50vh;
+    background-color: #2b2727;
+    margin-left: 693px;
+    position: relative;
+    bottom: 259px;
+}
+
+.doom-section .craft1 .premium1 {
+    width: 40%;
+    height: 30px;
+    background-color: #ffb130;
+    text-align: center;
+}
+
+.doom-section .craft1 .img1 img {
+    width: 120px;
+    height: 125px;
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+
+.doom-section .craft1 .premium1 span {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.doom-section span.world1 {
+    color: #ffb130;
+    font-weight: bolder;
+    font-size: larger;
+    word-spacing: 2.5px;
+    position: relative;
+    bottom: 80px;
+    left: 180px;
+}
+
+.doom-section .craft1 p {
+    color: #585555;
+    margin-left: 140px;
+    font-size: small;
+    line-height: 35px;
+    position: relative;
+    bottom: 70px;
+}
+
+.doom-section .craft1 p span.priz1 {
+    color: #ffb130;
+
+}
+
+/* ....reviews.... */
+.reviews-section {
+    width: 100%;
+    height: 130vh;
+    background-image: url(/html/img/review-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reviews-section span {
+    color: #fff;
+    background-color: #eb405d;
+    padding: 5px 24px;
+    margin-left: 46%;
+    position: relative;
+    top: 40px;
+}
+
+.reviews-section .Recent {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 39%;
+    position: relative;
+    top: 50px;
+}
+
+/* .img. */
+div.des {
+    width: 250px;
+    height: 170px;
+    padding: 10px;
+    margin-left: 54px;
+    text-align: center;
+
+
+}
+
+div.des p {
+    position: relative;
+    top: 40px;
+}
+
+div.gall img {
+    width: 76%;
+    height: 400px;
+    margin-left: 50px;
+}
+
+div.gall {
+    position: relative;
+    top: 150px;
+    width: 370px;
+}
+
+div.gall h5 {
+    margin-left: 110px;
+    position: relative;
+    top: 30px;
+}
+
+/* .. */
+div.des1 {
+    width: 250px;
+    height: 170px;
+    padding: 10px;
+    margin-left: 62px;
+    text-align: center;
+
+
+}
+
+div.des1 p {
+    position: relative;
+    top: 40px;
+}
+
+div.gall1 img {
+    width: 76%;
+    height: 400px;
+    margin-left: 50px;
+}
+
+div.gall1 {
+    margin-left: 320px;
+    position: relative;
+    bottom: 452px;
+    width: 370px;
+}
+
+div.gall1 h5 {
+    margin-left: 165px;
+    position: relative;
+    top: 30px;
+}
+
+/* ... */
+div.des2 {
+    width: 250px;
+    height: 170px;
+    padding: 10px;
+    margin-left: 65px;
+    text-align: center;
+
+}
+
+div.des2 p {
+    position: relative;
+    top: 40px;
+}
+
+div.gall2 img {
+    width: 76%;
+    height: 400px;
+    margin-left: 50px;
+}
+
+div.gall2 {
+    margin-left: 640px;
+    position: relative;
+    bottom: 1054px;
+    width: 370px;
+}
+
+div.gall2 h5 {
+    margin-left: 140px;
+    position: relative;
+    top: 30px;
+}
+
+/* ....*/
+div.des3 {
+    width: 250px;
+    height: 170px;
+    padding: 10px;
+    margin-left: 65px;
+    text-align: center;
+
+
+}
+
+div.des3 p {
+    position: relative;
+    top: 40px;
+}
+
+div.gall3 img {
+    width: 76%;
+    height: 400px;
+    margin-left: 50px;
+}
+
+div.gall3 {
+    margin-left: 960px;
+    position: relative;
+    bottom: 1657px;
+    width: 370px;
+}
+
+div.gall3 h5 {
+    margin-left: 160px;
+    position: relative;
+    top: 30px;
+}
+
+/* .....footer-section.... */
+.footer-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/html/img/pattern.png);
+}
+
+.footer-section div.imgs {
+    margin-left: 70px;
+    position: relative;
+    top: 67px;
+}
+
+.footer-section .ipsum {
+    width: 300px;
+    height: 50px;
+    margin-left: 150px;
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+
+.footer-section .ipsum h3 {
+    color: #fff;
+    position: relative;
+    top: 6px;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.footer-section p {
+    width: 40%;
+    color: #fff;
+    margin-left: 70px;
+    position: relative;
+    top: 80px;
+}
+
+.footer-section .jun {
+    background-color: #201f1f;
+    width: 25%;
+    height: 490px;
+    margin-left: 620px;
+    position: relative;
+    bottom: 30px;
+}
+
+.footer-section .jun img {
+    width: 130px;
+    height: 100px;
+    margin-left: 7px;
+    position: relative;
+    top: 45px;
+
+}
+
+.footer-section .jun h4 {
+    width: 160px;
+    color: #fff;
+    margin-left: 15px;
+    position: relative;
+    top: 20px;
+}
+
+.footer-section .jun p span {
+    color: #ffb130;
+    font-size: small;
+}
+
+.footer-section .jun p {
+    width: 190px;
+    font-size: small;
+    margin-left: 147px;
+    position: relative;
+    top: -30px;
+
+}
+
+/* .. */
+.footer-section .jun .june21 {
+    width: 130px;
+    height: 100px;
+    margin-left: 7px;
+    position: relative;
+    top: -5px;
+
+}
+
+.footer-section .jun p span {
+    color: #ffb130;
+    font-size: small;
+}
+
+.footer-section .jun .page21 {
+    width: 190px;
+    font-size: small;
+    margin-left: 147px;
+    position: relative;
+    top: -70px;
+
+}
+
+/* ... */
+.footer-section .jun .june22 {
+    width: 130px;
+    height: 100px;
+    margin-left: 7px;
+    position: relative;
+    top: -50px;
+
+}
+
+.footer-section .jun p span {
+    color: #ffb130;
+    font-size: small;
+}
+
+.footer-section .jun .page22 {
+    width: 190px;
+    font-size: small;
+    margin-left: 147px;
+    position: relative;
+    top: -110px;
+
+}
+
+/* .. */
+.footer-section .june1 {
+    background-color: #201f1f;
+    width: 25%;
+    height: 490px;
+    margin-left: 990px;
+    position: absolute;
+    top: 3606px;
+}
+.footer-section .june1 h4{
+    color:#fff;
+    position: relative;
+    top: 25px;
+    left: 20px;
+
+}
+/* .. */
+.footer-section .june1 .comment{
+    width: 100%;
+    height:165px;
+    position: relative;
+    top: 20px;
+}
+.footer-section .june1 .comment img{
+    width:110px;
+    border-radius: 70px;
+    margin-left: 10px;
+    position: relative;
+    top: 17px;
+}
+.footer-section .june1 .comment p{
+    width: 200px;
+    font-size: 15px;
+    margin-left: 130px;
+    position: relative;
+    top: -85px;
+}
+.footer-section .june1 .comment .red{
+    color: #eeababe7;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: -13px;
+}
+.footer-section .june1 .comment h6{
+    margin-left: 270px;
+    position: relative;
+    top: -80px;
+    color: #555050;
+}
+.footer-section .june1 .comment .yogi{
+    color: #ffb130;
+    margin-left: 130px;
+    position: relative;
+    top: -100px;
+}
+/* .. */
+.footer-section .june1 .comment1{
+    width: 100%;
+    height:165px;
+    position: relative;
+    top:-10px;
+}
+.footer-section .june1 .comment1 img{
+    width:110px;
+    border-radius: 70px;
+    margin-left: 10px;
+    position: relative;
+    top: 17px;
+}
+.footer-section .june1 .comment1 p{
+    width: 200px;
+    font-size: 15px;
+    margin-left: 130px;
+    position: relative;
+    top: -85px;
+}
+.footer-section .june1 .comment1 .red{
+    color: #eeababe7;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: -13px;
+}
+.footer-section .june1 .comment1 h6{
+    margin-left: 270px;
+    position: relative;
+    top: -80px;
+    color: #555050;
+}
+.footer-section .june1 .comment1 .yogi{
+    color: #ffb130;
+    margin-left: 130px;
+    position: relative;
+    top: -100px;
+}
+/* /// */
+.footer-section .june1 .comment2{
+    width: 100%;
+    height:165px;
+    position: relative;
+    top: -30px;
+}
+.footer-section .june1 .comment2 img{
+    width:110px;
+    border-radius: 70px;
+    margin-left: 10px;
+    position: relative;
+    top: 17px;
+}
+.footer-section .june1 .comment2 p{
+    width: 200px;
+    font-size: 15px;
+    margin-left: 130px;
+    position: relative;
+    top: -85px;
+}
+.footer-section .june1 .comment2 .red{
+    color: #eeababe7;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: -13px;
+}
+.footer-section .june1 .comment2 h6{
+    margin-left: 270px;
+    position: relative;
+    top: -80px;
+    color: #555050;
+}
+.footer-section .june1 .comment2 .yogi{
+    color: #ffb130;
+    margin-left: 130px;
+    position: relative;
+    top: -100px;
+}
+.footer-section .spider{
+   position:absolute;
+   top: 3690px;
+   left: 40px;
+}

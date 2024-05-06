@@ -1,0 +1,498 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.navbar-nav .nav-link {
+    text-indent: 30px;
+    margin-left: 60px;
+    font-size: large;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-fluid .navbar-brand {
+    text-indent: 20px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 200%;
+}
+
+.carousel .carousel-inner {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    right: 12px;
+    bottom: 40px;
+}
+
+.carousel1 .carousel-inner .carousel-item .d-block {
+    width: 100%;
+    height: 100vh;
+}
+
+/* .......................... */
+.lats-name {
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+    background-color: black;
+    overflow: hidden;
+}
+
+.lats-name .text .text1 {
+    width: 33%;
+    height: 30px;
+    position: relative;
+    top: 25px;
+    display: inline-block;
+    overflow: hidden;
+    animation: iron 10.5s linear infinite reverse;
+}
+
+.lats-name .text .text1 span {
+    background-color: #eb405d;
+    padding: 3px 24px;
+}
+
+.lats-name .text .text1 p {
+    text-align: center;
+    color: #fff;
+}
+
+/* .. .............*/
+.lats-name .text .text2 {
+    width: 33%;
+    height: 30px;
+    position: relative;
+    left: 30px;
+    top: 25px;
+    display: inline-block;
+    overflow: hidden;
+    animation: iron 10.5s linear infinite reverse;
+}
+
+.lats-name .text .text2 span {
+    background-color: #0bcf74;
+    padding: 3px 24px;
+}
+
+.lats-name .text .text2 p {
+    text-align: center;
+    color: #fff;
+}
+
+/* ........................... */
+.lats-name .text .text3 {
+    width: 33%;
+    height: 30px;
+    position: relative;
+    left: 30px;
+    top: 25px;
+    display: inline-block;
+    overflow: hidden;
+    animation: iron 10.5s linear infinite reverse;
+}
+
+.lats-name .text .text3 span {
+    background-color: #d40fe6;
+    padding: 3px 24px;
+}
+
+.lats-name .text .text3 p {
+    text-align: center;
+    color: #fff;
+}
+
+@keyframes iron {
+    from {
+        left: -890px;
+    }
+
+    to {
+        left: 1350px;
+    }
+}
+
+.test {
+    width: 30%;
+    height: 70px;
+    background-color: #ffb320;
+    position: relative;
+    bottom: 37px;
+
+}
+
+.test p {
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    top: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* .... */
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ...games-section..... */
+.games-section {
+    width: 100%;
+    height: 77vh;
+    position: relative;
+    bottom: 5.6px;
+    background-image: url(/html/img/25060.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.games-section .parag {
+    width: 530px;
+    margin-left: 40px;
+    position: relative;
+    top: 280px;
+}
+
+.games-section .parag h1,
+p {
+
+    color: #fff;
+}
+
+/* .......replay-section....... */
+.replay-section {
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    top: 170px;
+}
+
+.replay-section .paragraph {
+    width: 400px;
+    height: 120px;
+    margin-left: 50px;
+}
+
+.replay-section .paragraph p {
+    width: 400px;
+    height: 120px;
+
+}
+
+.replay-section .name {
+    width: 60%;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    bottom: 120px;
+
+}
+
+.replay-section .name input {
+    outline: none;
+    width: 340px;
+    height: 40px;
+
+}
+
+.replay-section .subject {
+    width: 54%;
+    float: right;
+    margin-right: 90px;
+    position: relative;
+    bottom: 100px;
+}
+
+.replay-section .subject input {
+    width: 100%;
+    height: 40px;
+    outline: none;
+}
+
+.replay-section .message {
+   float: right;
+   width: 55%;
+   height: 50vh;
+   outline: none;
+   margin-right: 80px;
+   position: relative;
+   bottom: 60px;
+}
+/* .....footer-section.... */
+.footer-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/html/img/pattern.png);
+      
+}
+
+.footer-section div.imgs {
+    margin-left: 70px;
+    position: relative;
+    top: 67px;
+}
+
+.footer-section .ipsum {
+    width: 300px;
+    height: 50px;
+    margin-left: 150px;
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+
+.footer-section .ipsum h3 {
+    color: #fff;
+    position: relative;
+    top: 6px;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.footer-section p {
+    width: 40%;
+    color: #fff;
+    margin-left: 70px;
+    position: relative;
+    top: 80px;
+}
+
+.footer-section .jun {
+    background-color: #201f1f;
+    width: 25%;
+    height: 490px;
+    margin-left: 610px;
+    position: relative;
+   top: -25px;
+}
+
+.footer-section .jun img {
+    width: 130px;
+    height: 100px;
+    margin-left: 7px;
+    position: relative;
+    top: 45px;
+
+}
+
+.footer-section .jun h4 {
+    width: 160px;
+    color: #fff;
+    margin-left: 15px;
+    position: relative;
+    top: 20px;
+}
+
+.footer-section .jun p span {
+    color: #ffb130;
+    font-size: small;
+}
+
+.footer-section .jun p {
+    width: 190px;
+    font-size: small;
+    margin-left: 147px;
+    position: relative;
+    top: -30px;
+
+}
+
+/* .. */
+.footer-section .jun .june21 {
+    width: 130px;
+    height: 100px;
+    margin-left: 7px;
+    position: relative;
+    top: -5px;
+
+}
+
+.footer-section .jun p span {
+    color: #ffb130;
+    font-size: small;
+}
+
+.footer-section .jun .page21 {
+    width: 190px;
+    font-size: small;
+    margin-left: 147px;
+    position: relative;
+    top: -70px;
+
+}
+
+/* ... */
+.footer-section .jun .june22 {
+    width: 130px;
+    height: 100px;
+    margin-left: 7px;
+    position: relative;
+    top: -50px;
+
+}
+
+.footer-section .jun p span {
+    color: #ffb130;
+    font-size: small;
+}
+
+.footer-section .jun .page22 {
+    width: 190px;
+    font-size: small;
+    margin-left: 147px;
+    position: relative;
+    top: -110px;
+
+}
+
+/* .. */
+.footer-section .june1 {
+    background-color: #201f1f;
+    width: 25%;
+    height: 490px;
+    margin-left: 980px;
+    position: absolute;
+    top: 2070px;
+}
+.footer-section .june1 h4{
+    color:#fff;
+    position: relative;
+    top: 25px;
+    left: 20px;
+
+}
+/* .. */
+.footer-section .june1 .comment{
+    width: 100%;
+    height:165px;
+    position: relative;
+    top: 20px;
+}
+.footer-section .june1 .comment img{
+    width:110px;
+    border-radius: 70px;
+    margin-left: 10px;
+    position: relative;
+    top: 17px;
+}
+.footer-section .june1 .comment p{
+    width: 200px;
+    font-size: 15px;
+    margin-left: 130px;
+    position: relative;
+    top: -85px;
+}
+.footer-section .june1 .comment .red{
+    color: #eeababe7;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: -13px;
+}
+.footer-section .june1 .comment h6{
+    margin-left: 270px;
+    position: relative;
+    top: -80px;
+    color: #555050;
+}
+.footer-section .june1 .comment .yogi{
+    color: #ffb130;
+    margin-left: 130px;
+    position: relative;
+    top: -100px;
+}
+/* .. */
+.footer-section .june1 .comment1{
+    width: 100%;
+    height:165px;
+    position: relative;
+    top:-10px;
+}
+.footer-section .june1 .comment1 img{
+    width:110px;
+    border-radius: 70px;
+    margin-left: 10px;
+    position: relative;
+    top: 17px;
+}
+.footer-section .june1 .comment1 p{
+    width: 200px;
+    font-size: 15px;
+    margin-left: 130px;
+    position: relative;
+    top: -85px;
+}
+.footer-section .june1 .comment1 .red{
+    color: #eeababe7;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: -13px;
+}
+.footer-section .june1 .comment1 h6{
+    margin-left: 270px;
+    position: relative;
+    top: -80px;
+    color: #555050;
+}
+.footer-section .june1 .comment1 .yogi{
+    color: #ffb130;
+    margin-left: 130px;
+    position: relative;
+    top: -100px;
+}
+/* /// */
+.footer-section .june1 .comment2{
+    width: 100%;
+    height:165px;
+    position: relative;
+    top: -30px;
+}
+.footer-section .june1 .comment2 img{
+    width:110px;
+    border-radius: 70px;
+    margin-left: 10px;
+    position: relative;
+    top: 17px;
+}
+.footer-section .june1 .comment2 p{
+    width: 200px;
+    font-size: 15px;
+    margin-left: 130px;
+    position: relative;
+    top: -85px;
+}
+.footer-section .june1 .comment2 .red{
+    color: #eeababe7;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: -13px;
+}
+.footer-section .june1 .comment2 h6{
+    margin-left: 270px;
+    position: relative;
+    top: -80px;
+    color: #555050;
+}
+.footer-section .june1 .comment2 .yogi{
+    color: #ffb130;
+    margin-left: 130px;
+    position: relative;
+    top: -100px;
+}
+.footer-section .spider{
+   position:absolute;
+   top: 2120px;
+   left: 40px;
+}

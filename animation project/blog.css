@@ -1,0 +1,956 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.navbar-nav .nav-link {
+    text-indent: 30px;
+    margin-left: 60px;
+    font-size: large;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-fluid .navbar-brand {
+    text-indent: 20px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 200%;
+}
+
+.carousel .carousel-inner {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    right: 12px;
+    bottom: 40px;
+}
+
+.carousel1 .carousel-inner .carousel-item .d-block {
+    width: 100%;
+    height: 100vh;
+}
+
+/* .......................... */
+.lats-name {
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+    background-color: black;
+    overflow: hidden;
+}
+
+.lats-name .text .text1 {
+    width: 33%;
+    height: 30px;
+    position: relative;
+    top: 25px;
+    display: inline-block;
+    overflow: hidden;
+    animation: iron 10.5s linear infinite reverse;
+}
+
+.lats-name .text .text1 span {
+    background-color: #eb405d;
+    padding: 3px 24px;
+}
+
+.lats-name .text .text1 p {
+    text-align: center;
+    color: #fff;
+}
+
+/* .. .............*/
+.lats-name .text .text2 {
+    width: 33%;
+    height: 30px;
+    position: relative;
+    left: 30px;
+    top: 25px;
+    display: inline-block;
+    overflow: hidden;
+    animation: iron 10.5s linear infinite reverse;
+}
+
+.lats-name .text .text2 span {
+    background-color: #0bcf74;
+    padding: 3px 24px;
+}
+
+.lats-name .text .text2 p {
+    text-align: center;
+    color: #fff;
+}
+
+/* ........................... */
+.lats-name .text .text3 {
+    width: 33%;
+    height: 30px;
+    position: relative;
+    left: 30px;
+    top: 25px;
+    display: inline-block;
+    overflow: hidden;
+    animation: iron 10.5s linear infinite reverse;
+}
+
+.lats-name .text .text3 span {
+    background-color: #d40fe6;
+    padding: 3px 24px;
+}
+
+.lats-name .text .text3 p {
+    text-align: center;
+    color: #fff;
+}
+
+@keyframes iron {
+    from {
+        left: -890px;
+    }
+
+    to {
+        left: 1350px;
+    }
+}
+
+.test {
+    width: 30%;
+    height: 70px;
+    background-color: #ffb320;
+    position: relative;
+    bottom: 37px;
+
+}
+
+.test p {
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    top: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* .... */
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ...games-section..... */
+.games-section {
+    width: 100%;
+    height: 77vh;
+    position: relative;
+    bottom: 5.6px;
+    background-image: url(/html/img/Header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.games-section .parag {
+    width: 530px;
+    margin-left: 40px;
+    position: relative;
+    top: 290px;
+}
+
+.games-section .parag h1,
+p {
+
+    color: #fff;
+}
+
+/* .. */
+.porer img {
+    width: 350px;
+    height: 347px;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+.porer .para h5 {
+    width: 250px;
+    padding-left: 20px;
+}
+
+.porer .para {
+    width: 350px;
+    height: 180px;
+    margin-left: 70px;
+    border: 1px solid rgb(214, 213, 213);
+}
+
+.porer .para p {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+/* .. */
+.porer1 {
+    margin-left: 400px;
+    position: absolute;
+    top: 637px;
+}
+
+.porer1 img {
+    width: 350px;
+    height: 347px;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+.porer1 .para h5 {
+    width: 250px;
+    padding-left: 20px;
+}
+
+.porer1 .para {
+    width: 350px;
+    height: 180px;
+    margin-left: 70px;
+    border: 1px solid rgb(214, 213, 213);
+}
+
+.porer1 .para p {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+/* . */
+.porer2 {
+    margin-left: 400px;
+    position: absolute;
+    top: 208vh;
+}
+
+.porer2 img {
+    width: 350px;
+    height: 347px;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+.porer2 .para h5 {
+    width: 250px;
+    padding-left: 20px;
+}
+
+.porer2 .para {
+    width: 350px;
+    height: 180px;
+    margin-left: 70px;
+    border: 1px solid rgb(214, 213, 213);
+}
+
+.porer2 .para p {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+/* .... */
+.porer3 {
+    margin-left: 400px;
+    position: absolute;
+    top: 315vh;
+}
+
+.porer3 img {
+    width: 350px;
+    height: 347px;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+.porer3 .para h5 {
+    width: 250px;
+    padding-left: 20px;
+}
+
+.porer3 .para {
+    width: 350px;
+    height: 180px;
+    margin-left: 70px;
+    border: 1px solid rgb(214, 213, 213);
+}
+
+.porer3 .para p {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+/* .. */
+.porer4 {
+    margin-left: 400px;
+    position: absolute;
+    top: 2668px;
+}
+
+.porer4 img {
+    width: 350px;
+    height: 347px;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+.porer4 .para h5 {
+    width: 250px;
+    padding-left: 20px;
+}
+
+.porer4 .para {
+    width: 350px;
+    height: 180px;
+    margin-left: 70px;
+    border: 1px solid rgb(214, 213, 213);
+}
+
+.porer4 .para p {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+/* .................. */
+.search-section {
+    width: 38%;
+    height: 410vh;
+    position: absolute;
+    top: 125vh;
+    left: 832px;
+}
+
+.search-section input {
+    width: 100%;
+    height: 41px;
+    border: 1px solid #d6dee7;
+    padding-left: 22px;
+    padding-right: 45px;
+    font-size: 12px;
+    outline: none;
+}
+
+.search-section .bi-search {
+    float: right;
+    border: none;
+    position: relative;
+    top: -29px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* ................................... */
+.jun {
+
+    width: 70%;
+    height: 490px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+
+}
+
+.jun img {
+    width: 130px;
+    height: 100px;
+    margin-left: 7px;
+    position: relative;
+    top: 45px;
+
+}
+
+.jun h4 {
+    width: 160px;
+    color: black;
+    margin-left: 15px;
+    position: relative;
+    top: 20px;
+}
+
+.jun p span {
+    color: #ffb130;
+    font-size: small;
+}
+
+.jun p {
+    width: 190px;
+    font-size: small;
+    margin-left: 147px;
+    position: relative;
+    top: -30px;
+    color: black;
+
+}
+
+/* .. */
+.jun .june21 {
+    width: 130px;
+    height: 100px;
+    margin-left: 7px;
+    position: relative;
+    top: -5px;
+
+}
+
+.jun p span {
+    color: #ffb130;
+    font-size: small;
+}
+
+.jun .page21 {
+    width: 190px;
+    font-size: small;
+    margin-left: 147px;
+    position: relative;
+    top: -70px;
+
+}
+
+/* ... */
+.jun .june22 {
+    width: 130px;
+    height: 100px;
+    margin-left: 7px;
+    position: relative;
+    top: -50px;
+
+}
+
+.jun p span {
+    color: #f15b5be7;
+    font-size: medium;
+}
+
+.jun .page22 {
+    width: 190px;
+    font-size: small;
+    margin-left: 147px;
+    position: relative;
+    top: -110px;
+
+}
+
+/*................. */
+.june1 {
+    width: 70%;
+    height: 490px;
+    position: absolute;
+    top: 606px;
+    left: 30px;
+}
+
+.june1 h4 {
+    color: black;
+    position: relative;
+    top: 25px;
+    left: 20px;
+
+}
+
+/* .. */
+.june1 .comment {
+    width: 100%;
+    height: 165px;
+    position: relative;
+    top: 20px;
+}
+
+.june1 .comment img {
+    width: 110px;
+    border-radius: 70px;
+    margin-left: 10px;
+    position: relative;
+    top: 17px;
+}
+
+.june1 .comment p {
+    width: 200px;
+    font-size: 15px;
+    margin-left: 130px;
+    position: relative;
+    top: -85px;
+    color: black;
+}
+
+.june1 .comment .red {
+    color: #f15b5be7;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: -13px;
+}
+
+.june1 .comment h6 {
+    margin-left: 270px;
+    position: relative;
+    top: -80px;
+    color: #555050;
+}
+
+.june1 .comment .yogi {
+    color: #ffb130;
+    margin-left: 130px;
+    position: relative;
+    top: -100px;
+}
+
+/* .. */
+.june1 .comment1 {
+    width: 100%;
+    height: 165px;
+    position: relative;
+    top: -10px;
+}
+
+.june1 .comment1 img {
+    width: 110px;
+    border-radius: 70px;
+    margin-left: 10px;
+    position: relative;
+    top: 17px;
+}
+
+.june1 .comment1 p {
+    width: 200px;
+    font-size: 15px;
+    margin-left: 130px;
+    position: relative;
+    top: -85px;
+    color: black;
+}
+
+.june1 .comment1 .red {
+    color: #f15b5be7;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: -13px;
+}
+
+.june1 .comment1 h6 {
+    margin-left: 270px;
+    position: relative;
+    top: -80px;
+    color: #555050;
+}
+
+.june1 .comment1 .yogi {
+    color: #ffb130;
+    margin-left: 130px;
+    position: relative;
+    top: -100px;
+}
+
+/* /// */
+.june1 .comment2 {
+    width: 100%;
+    height: 165px;
+    position: relative;
+    top: -30px;
+}
+
+.june1 .comment2 img {
+    width: 110px;
+    border-radius: 70px;
+    margin-left: 10px;
+    position: relative;
+    top: 17px;
+}
+
+.june1 .comment2 p {
+    width: 200px;
+    font-size: 15px;
+    margin-left: 130px;
+    position: relative;
+    top: -85px;
+    color: black;
+}
+
+.june1 .comment2 .red {
+    color: #f15b5be7;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: -13px;
+}
+
+.june1 .comment2 h6 {
+    margin-left: 270px;
+    position: relative;
+    top: -80px;
+    color: #555050;
+}
+
+.june1 .comment2 .yogi {
+    color: #ffb130;
+    margin-left: 130px;
+    position: relative;
+    top: -100px;
+}
+
+/* ............ */
+.rom img {
+    width: 400px;
+    height: 80vh;
+
+}
+
+.rom {
+    width: 400px;
+    height: 80px;
+    position: relative;
+    top: 750px;
+    left: 50px;
+}
+
+.rom p {
+    width: 335px;
+    position: relative;
+    color: #fff;
+    bottom: 220px;
+
+    text-align: center;
+}
+
+.rom pre {
+    color: #fff;
+    position: relative;
+    left: 60px;
+    bottom: 200px;
+}
+
+.rom span {
+    background-color: #eb405d;
+    padding: 5px 24px;
+    position: relative;
+    top: -250px;
+
+}
+
+/* ..... */
+div.des {
+    width: 110%;
+    height: 170px;
+    padding: 25px;
+    position: relative;
+    top: -32px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+div.des p {
+    color: black;
+    position: relative;
+    top: 40px;
+}
+
+div.gall img {
+    width: 110%;
+    height: 480px;
+    margin-left: 50px;
+}
+
+div.gall {
+
+    position: relative;
+    top: 1290px;
+    width: 370px;
+}
+
+div.gall h5 {
+    position: relative;
+    top: 30px;
+}
+div.gall .dear{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 70px;
+    position: relative;
+    top: 30px;
+    padding: 10px;
+    text-align: center;
+
+    background-color: #ffb130;
+}
+/* .....footer-section.... */
+.footer-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/html/img/pattern.png);
+  
+}
+
+.footer-section div.imgs {
+    margin-left: 70px;
+    position: relative;
+    top: 67px;
+}
+
+.footer-section .ipsum {
+    width: 300px;
+    height: 50px;
+    margin-left: 150px;
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+
+.footer-section .ipsum h3 {
+    color: #fff;
+    position: relative;
+    top: 6px;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.footer-section p {
+    width: 40%;
+    color: #fff;
+    margin-left: 70px;
+    position: relative;
+    top: 80px;
+}
+
+.footer-section .jun {
+    background-color: #201f1f;
+    width: 25%;
+    height: 490px;
+    margin-left: 580px;
+    position: relative;
+   top: -25px;
+}
+
+.footer-section .jun img {
+    width: 130px;
+    height: 100px;
+    margin-left: 7px;
+    position: relative;
+    top: 45px;
+
+}
+
+.footer-section .jun h4 {
+    width: 160px;
+    color: #fff;
+    margin-left: 15px;
+    position: relative;
+    top: 20px;
+}
+
+.footer-section .jun p span {
+    color: #ffb130;
+    font-size: small;
+}
+
+.footer-section .jun p {
+    width: 190px;
+    font-size: small;
+    margin-left: 147px;
+    position: relative;
+    top: -30px;
+
+}
+
+/* .. */
+.footer-section .jun .june21 {
+    width: 130px;
+    height: 100px;
+    margin-left: 7px;
+    position: relative;
+    top: -5px;
+
+}
+
+.footer-section .jun p span {
+    color: #ffb130;
+    font-size: small;
+}
+
+.footer-section .jun .page21 {
+    width: 190px;
+    font-size: small;
+    margin-left: 147px;
+    position: relative;
+    top: -70px;
+
+}
+
+/* ... */
+.footer-section .jun .june22 {
+    width: 130px;
+    height: 100px;
+    margin-left: 7px;
+    position: relative;
+    top: -50px;
+
+}
+
+.footer-section .jun p span {
+    color: #ffb130;
+    font-size: small;
+}
+
+.footer-section .jun .page22 {
+    width: 190px;
+    font-size: small;
+    margin-left: 147px;
+    position: relative;
+    top: -110px;
+
+}
+
+/* .. */
+.footer-section .june1 {
+    background-color: #201f1f;
+    width: 25%;
+    height: 490px;
+    margin-left: 960px;
+    position: absolute;
+    top: 3606px;
+}
+.footer-section .june1 h4{
+    color:#fff;
+    position: relative;
+    top: 25px;
+    left: 20px;
+
+}
+/* .. */
+.footer-section .june1 .comment{
+    width: 100%;
+    height:165px;
+    position: relative;
+    top: 20px;
+}
+.footer-section .june1 .comment img{
+    width:110px;
+    border-radius: 70px;
+    margin-left: 10px;
+    position: relative;
+    top: 17px;
+}
+.footer-section .june1 .comment p{
+    width: 200px;
+    font-size: 15px;
+    margin-left: 130px;
+    position: relative;
+    top: -85px;
+}
+.footer-section .june1 .comment .red{
+    color: #eeababe7;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: -13px;
+}
+.footer-section .june1 .comment h6{
+    margin-left: 270px;
+    position: relative;
+    top: -80px;
+    color: #555050;
+}
+.footer-section .june1 .comment .yogi{
+    color: #ffb130;
+    margin-left: 130px;
+    position: relative;
+    top: -100px;
+}
+/* .. */
+.footer-section .june1 .comment1{
+    width: 100%;
+    height:165px;
+    position: relative;
+    top:-10px;
+}
+.footer-section .june1 .comment1 img{
+    width:110px;
+    border-radius: 70px;
+    margin-left: 10px;
+    position: relative;
+    top: 17px;
+}
+.footer-section .june1 .comment1 p{
+    width: 200px;
+    font-size: 15px;
+    margin-left: 130px;
+    position: relative;
+    top: -85px;
+}
+.footer-section .june1 .comment1 .red{
+    color: #eeababe7;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: -13px;
+}
+.footer-section .june1 .comment1 h6{
+    margin-left: 270px;
+    position: relative;
+    top: -80px;
+    color: #555050;
+}
+.footer-section .june1 .comment1 .yogi{
+    color: #ffb130;
+    margin-left: 130px;
+    position: relative;
+    top: -100px;
+}
+/* /// */
+.footer-section .june1 .comment2{
+    width: 100%;
+    height:165px;
+    position: relative;
+    top: -30px;
+}
+.footer-section .june1 .comment2 img{
+    width:110px;
+    border-radius: 70px;
+    margin-left: 10px;
+    position: relative;
+    top: 17px;
+}
+.footer-section .june1 .comment2 p{
+    width: 200px;
+    font-size: 15px;
+    margin-left: 130px;
+    position: relative;
+    top: -85px;
+}
+.footer-section .june1 .comment2 .red{
+    color: #eeababe7;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: -13px;
+}
+.footer-section .june1 .comment2 h6{
+    margin-left: 270px;
+    position: relative;
+    top: -80px;
+    color: #555050;
+}
+.footer-section .june1 .comment2 .yogi{
+    color: #ffb130;
+    margin-left: 130px;
+    position: relative;
+    top: -100px;
+}
+.footer-section .spider{
+   position:absolute;
+   top: 3690px;
+   left: 40px;
+}
