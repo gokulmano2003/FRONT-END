@@ -1,0 +1,268 @@
+.navbar-nav .nav-link {
+    text-indent: 30px;
+    margin-left: 60px;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-fluid .navbar-brand {
+    text-indent: 20px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 200%;
+}
+
+.carousel .carousel-inner {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    right: 12px;
+    bottom: 40px;
+}
+
+.logo {
+    position: relative;
+    right: 50px;
+    cursor: pointer;
+}
+
+.logo1 {
+    position: relative;
+    right: 20px;
+    cursor: pointer;
+}
+
+/* ...................................... */
+.secand-page {
+    width: 55%;
+    position: absolute;
+    left: 603px;
+    top: 65%;
+    z-index: -1;
+    border: none;
+}
+
+.secand-page img {
+    margin-left: 210px;
+    position: relative;
+    bottom: 180px;
+
+}
+
+.about {
+    width: 380px;
+    font-weight: bold;
+    font-style: oblique;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.para {
+    width: 500px;
+    margin-left: 30px;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.more {
+    width: auto;
+    text-decoration: none;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    color: rgba(77, 40, 40, 0.884);
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: 900;
+}
+
+.more img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+/* ....................................... */
+.your {
+    width: 90%;
+    height: 70vh;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 350px;
+}
+
+.your .enter {
+    width: 50%;
+    height: 7vh;
+    margin-top: 70px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+}
+
+
+.your .your1 {
+    width: 60px;
+    height: 46px;
+    border: 1px solid black;
+    position: relative;
+    right: 5px;
+    bottom: 1px;
+    background-color: #a04120;
+    color: #fff;
+
+
+}
+
+.your .your1:hover {
+    border: 1px solid #a04120;
+    background-color: #fff;
+    color: #a04120;
+}
+
+.your .facebook {
+    width: 70px;
+    height: 60px;
+    border: 1px solid aliceblue;
+    margin-left: 40px;
+}
+
+.your .home {
+    width: auto;
+    margin-top: 40px;
+    color: #fff;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.your .home1 {
+    width: auto;
+    margin-left: auto;
+    position: relative;
+    bottom: 40px;
+    color: #fff;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.your .home2 {
+    width: 200px;
+    margin-left: auto;
+    position: relative;
+    bottom: 40px;
+    color: #fff;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.your .home3 {
+    width: 200px;
+    margin-left: 370px;
+    position: relative;
+    bottom: 40px;
+    color: #fff;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.your .menu h2 {
+    color: #fff;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.your a {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    box-sizing: border-box;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.your a:hover{
+    color:#fff;
+}
+.your .menu {
+    margin-top: 30px;
+}
+
+.your .insta-tag1 {
+    width: 180px;
+}
+
+.your .insta {
+    margin-left: 300px;
+    position: relative;
+    bottom: 250px;
+}
+
+.your .insta h2 {
+    position: relative;
+    bottom: 10px;
+    color: #fff;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.your .insta-tag1 {
+    width: 60px;
+    height: 50px;
+    background-color: #fff;
+}
+
+.your .insta-tag1 .image-img {
+    margin-top: 14px;
+    margin-left: 7px;
+}
+
+.your .long {
+    width: 150px;
+    color: #fff;
+    position: relative;
+    left: 70px;
+    bottom: 50px;
+    cursor: pointer;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.your .company {
+    margin-left: 660px;
+    position: relative;
+    bottom: 535px;
+}
+
+.your .company1 {
+    width: 260px;
+    color: #fff;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.your .Contact-us {
+    margin-left: 990px;
+    position: relative;
+    bottom: 740px;
+}
+.your .us-tag{
+    color: #fff;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.us-tag p{
+    position: relative;
+    left: 30px;
+    bottom: 23px;
+    cursor: pointer;
+}

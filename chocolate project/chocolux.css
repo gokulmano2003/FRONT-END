@@ -1,0 +1,689 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav .nav-link {
+    text-indent: 30px;
+    margin-left: 60px;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-fluid .navbar-brand {
+    text-indent: 20px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 200%;
+}
+
+/* ...button... */
+.container-fluid .carousel-control-prev {
+    width: 70px;
+    height: 60px;
+    position: relative;
+    top: -400px;
+    background-color: #be5858c5;
+
+}
+.container-fluid .carousel-control-next{
+    width: 70px;
+    height: 60px;
+    position: relative;
+    top: -397px;
+    background-color: #be5858c5;
+}
+.carousel .carousel-inner {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    right: 12px;
+    bottom: 40px;
+}
+
+.logo {
+    position: relative;
+    right: 50px;
+    cursor: pointer;
+}
+
+.logo1 {
+    position: relative;
+    right: 20px;
+    cursor: pointer;
+}
+.container-fluid1{
+    margin-top: 40px;
+}
+/* ................................................. */
+.row {
+    width: 80%;
+    height: 600px;
+    background-image: url(/img/slider1-bg1.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.str1 {
+    position: relative;
+    top: 70px;
+    left: 30px;
+    color: white;
+    font-size: xxx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+
+}
+
+.str2 {
+    position: relative;
+    top: 130px;
+    left: 180px;
+    color: white;
+    font-size: 600%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+
+}
+
+.read {
+    position: relative;
+    top: 330px;
+    left: 155px;
+    color: white;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bi-arrow-right-square-fill {
+    background-color: white;
+}
+
+.prev {
+    padding: 20px;
+    border: none;
+    background-color: white;
+    position: relative;
+    bottom: 380px;
+    right: 10px;
+    background-color: #f35500;
+}
+
+.next {
+    padding: 20px;
+    border: none;
+    background-color: white;
+    position: relative;
+    bottom: 300px;
+    right: 70px;
+}
+
+/* ..................................................... */
+.secand-page {
+    width: 55%;
+    height: 100vh;
+    background-image: url(/img/slider-bg2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 603px;
+    top: 65%;
+    z-index: -1;
+    border: none;
+}
+
+
+.secand-page img {
+    position: relative;
+    margin-top: 350px;
+    margin-left: 210px;
+}
+
+.about {
+    width: 380px;
+    font-weight: bold;
+    font-style: oblique;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.para {
+    width: 500px;
+    margin-left: 30px;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.more {
+    width: auto;
+    text-decoration: none;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    color: rgba(77, 40, 40, 0.884);
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: 900;
+}
+
+.more img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* .............................................. */
+.product {
+    width: 40%;
+    align-items: center;
+    margin-left: 70vh;
+    margin-top: 25vh;
+    font-style: oblique;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.many {
+    width: 45%;
+    margin-left: 410px;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.yummy {
+    width: 338px;
+    height: 60vh;
+    margin-left: 5%;
+    border: 1px solid black;
+
+}
+
+.yummy .yummy1 {
+    margin-top: 20px;
+    margin-left: 62px;
+}
+
+
+.yummy .yummy2 {
+    width: 338px;
+    height: 128px;
+    margin-top: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.yummy2 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    position: relative;
+    top: 20px;
+}
+
+.yummy p {
+    font-weight: bolder;
+    font-size: x-large;
+    position: relative;
+    top: 10px;
+}
+
+.yummy button {
+    font-weight: bolder;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    position: relative;
+    bottom: 10px;
+    background-color: #46200b;
+    color: #fff;
+}
+
+.yummy:hover .yummy2 {
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.yummy .yummy2 {
+    background-color: #46200b;
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.yummy:hover {
+    border: none;
+    box-shadow: 0px 4px 15px rgba(31, 38, 60.35);
+}
+
+div.div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.yummy .many {
+    width: auto;
+    position: relative;
+    right: 111%;
+    top: 10%;
+}
+
+.many2 {
+    width: 338px;
+    height: 128px;
+    margin-top: 121px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #46200b;
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+
+}
+
+.yummy:hover .many2 {
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.yummy .manu {
+    margin-left: 55px;
+    margin-top: 4px;
+}
+
+.prev1 {
+    width: 70px;
+    height: 55px;
+    margin-top: 50px;
+    position: relative;
+    left: 570px;
+    border: none;
+    box-shadow: 0px 5px 5px rgba(31, 38, 60.35);
+}
+
+.next1 {
+    width: 70px;
+    height: 55px;
+    margin-top: 50px;
+    margin-left: 200px;
+    border: none;
+    box-shadow: 0px 5px 5px rgba(31, 38, 60.35);
+}
+
+.prev1:hover {
+    background-color: #46200b;
+    color: white;
+}
+
+.next1:hover {
+    background-color: #46200b;
+    color: white;
+}
+
+/* ....................................................*/
+.contact {
+    width: 92%;
+    height: 80vh;
+    border: 1px solid black;
+    margin-top: 200px;
+    margin-left: 52px;
+}
+
+.contact h1 {
+    text-align: center;
+    margin-top: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.contact p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contact button {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 560px;
+    border: none;
+    background-color: #46200b;
+    color: #fff;
+
+}
+
+.contact button:hover {
+    background-color: #fff;
+    color: black;
+    border: 1px solid #46200b;
+}
+
+.contact img {
+    margin-left: 350px;
+}
+
+.more1 {
+    width: auto;
+    text-decoration: none;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    color: rgba(77, 40, 40, 0.884);
+    background-color: white;
+    margin-top: 160px;
+    margin-left: 600px;
+    font-weight: 900;
+}
+
+.more1 img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* ........................................................ */
+.client {
+    width: 35%;
+    margin-top: 200px;
+    margin-left: 250px;
+}
+
+.naxtpage {
+    width: 40%;
+    height: 145vh;
+    float: right;
+    margin-top: 200px;
+    background-image: url(/img/client-bg.png);
+
+}
+
+.prev2 {
+    width: 60px;
+    height: 60px;
+    margin-left: 400px;
+    margin-top: 430px;
+    position: relative;
+    left: 81px;
+    border: none;
+}
+
+.next2 {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 70px;
+    left: 16px;
+    border: none;
+}
+
+/* ................................................. */
+div.us {
+    width: 100%;
+    height: 110vh;
+}
+
+div.us h1 {
+    width: 200px;
+    position: relative;
+    top: 190px;
+    left: 340px;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div.us .name {
+    width: 24%;
+    height: 7vh;
+    position: relative;
+    top: 150px;
+    left: 340px;
+    border: 1px solid black;
+    outline: none;
+    font-size: large;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+div.us .name1 {
+    width: 24%;
+    height: 7vh;
+    position: relative;
+    top: 230px;
+    left: 12px;
+    border: 1px solid black;
+    outline: none;
+    font-size: large;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+div.us .name2 {
+    width: 24%;
+    height: 7vh;
+    position: relative;
+    top: 310px;
+    right: 315px;
+    border: 1px solid black;
+    outline: none;
+    font-size: large;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+div.us .name3 {
+    width: 24%;
+    height: 25vh;
+    position: relative;
+    top: 450px;
+    right: 640px;
+    border: 1px solid black;
+    outline: none;
+    font-size: large;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/* ....................................................... */
+.your {
+    width: 90%;
+    height: 70vh;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.your .enter {
+    width: 50%;
+    height: 7vh;
+    margin-top: 70px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+}
+
+
+.your .your1 {
+    width: 60px;
+    height: 46px;
+    border: 1px solid black;
+    position: relative;
+    right: 5px;
+    bottom: 1px;
+    background-color: #a04120;
+    color: #fff;
+
+
+}
+
+.your .your1:hover {
+    border: 1px solid #a04120;
+    background-color: #fff;
+    color: #a04120;
+}
+
+.your .facebook {
+    width: 70px;
+    height: 60px;
+    border: 1px solid aliceblue;
+    margin-left: 40px;
+}
+
+.your .home {
+    width: auto;
+    margin-top: 40px;
+    color: #fff;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.your .home1 {
+    width: auto;
+    margin-left: auto;
+    position: relative;
+    bottom: 40px;
+    color: #fff;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.your .home2 {
+    width: 200px;
+    margin-left: auto;
+    position: relative;
+    bottom: 40px;
+    color: #fff;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.your .home3 {
+    width: 200px;
+    margin-left: 370px;
+    position: relative;
+    bottom: 40px;
+    color: #fff;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.your .menu h2 {
+    color: #fff;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.your a {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    box-sizing: border-box;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.your a:hover {
+    color: #fff;
+}
+
+.your .menu {
+    margin-top: 30px;
+}
+
+.your .insta-tag1 {
+    width: 180px;
+}
+
+.your .insta {
+    margin-left: 300px;
+    position: relative;
+    bottom: 250px;
+}
+
+.your .insta h2 {
+    position: relative;
+    bottom: 10px;
+    color: #fff;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.your .insta-tag1 {
+    width: 60px;
+    height: 50px;
+    background-color: #fff;
+}
+
+.your .insta-tag1 .image-img {
+    margin-top: 14px;
+    margin-left: 7px;
+}
+
+.your .long {
+    width: 150px;
+    color: #fff;
+    position: relative;
+    left: 70px;
+    bottom: 50px;
+    cursor: pointer;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.your .company {
+    margin-left: 660px;
+    position: relative;
+    bottom: 535px;
+}
+
+.your .company1 {
+    width: 260px;
+    color: #fff;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.your .Contact-us {
+    margin-left: 990px;
+    position: relative;
+    bottom: 740px;
+}
+
+.your .us-tag {
+    color: #fff;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.us-tag p {
+    position: relative;
+    left: 30px;
+    bottom: 23px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:800px) {}
