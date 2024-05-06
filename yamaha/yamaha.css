@@ -1,0 +1,50 @@
+        h1,
+        abbr {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            color: hsl(0, 0%, 0%);
+            background-color: white;
+        }
+
+        h2 {
+            float: inline-start;
+        }
+
+        img {
+            float: right;
+
+        }
+
+        i {
+            float: inline-start;
+        }
+
+        p {
+            float: inline-start;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .text {
+            float: inline-start;
+        }
+
+        UL {
+            display: flex;
+        }
+
+        ul li {
+            display: inline;
+            text-indent: 40px;
+        }
+
+        .text2 {
+            height: 450px;
+            width: 100%;
+            background-color: rgb(212, 255, 255);
+            color: rgb(10, 8, 8);
+        }
+
+        .text2, div,ul,li,h4 {
+            float: none;
+        }
+

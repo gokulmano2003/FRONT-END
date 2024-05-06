@@ -1,0 +1,59 @@
+* {
+    margin: 10px;
+
+}
+
+div {
+    text-align: center;
+    height: 800px;
+    width: 100%;
+    background-color: black;
+    color: rgb(216, 206, 173);
+
+}
+
+div nav {
+    text-align: left;
+    display: inline;
+    text-indent: 40px;
+    margin: 10px;
+}
+
+ul {
+    display: flex;
+}
+
+.text {
+    text-align: center;
+    height: 420px;
+    width: 100%;
+    background-color: black;
+    color: rgb(216, 206, 173);
+}
+
+.text2 {
+    text-align: center;
+    height: 800px;
+    width: 100%;
+    background-color: black;
+    color: rgb(216, 206, 173);
+}
+
+.text1 {
+    text-align: center;
+    height: 1600px;
+    width: 100%;
+    background-color: black;
+    color: rgb(216, 206, 173)
+}
+
+.text1 img {
+    float: inline-start;
+}
+
+button {
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+
+}
