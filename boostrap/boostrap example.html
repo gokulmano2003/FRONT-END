@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    .container-fluied {
+      border: 10px groove rgba(104, 103, 102, 0.507);
+    }
+
+    .container {
+      height: 300px;
+      width: auto;
+      border: groove;
+      text-align: center;
+    }
+
+    /* ....................page..................... */
+    div.div1 {
+      width: 107vh;
+      height: 26vh;
+      border: 10px groove rgba(72, 122, 94, 0.63);
+    }
+
+    .rounded {
+      margin-left: 20px;
+    }
+
+    body {
+      background-color: rgba(132, 155, 30, 0.479);
+    }
+
+    /* .............page................. */
+    .table:hover {
+      cursor: pointer;
+    }
+
+    .table-hover tbody tr:hover>th {
+      background-color: teal;
+    }
+
+    .table-hover tbody tr:hover>td {
+      background-color: teal;
+    }
+
+    div.div {
+      width: 400px;
+      height: 30vh;
+      border: 10px groove rgba(72, 122, 94, 0.63);
+    }
+
+    .paginations  {
+      width: 100%;
+      height: 20vh;
+      list-style: none;
+      
+    }
+  </style>
+
+
+
+</head>
+
+<body>
+  <h1>container & container-fluied </h1>
+  <div class="container-fluied bg-success">
+    <div class="container text-align text-dark">
+      <br>
+      Bootstrap also comes with several JavaScript components which do not require other libraries like jQuery. They
+      provide additional user interface elements such as dialog boxes, tooltips, progress bars, navigation drop-downs,
+      and carousels. Each Bootstrap component consists of an HTML structure, CSS declarations, and in some cases
+      accompanying JavaScript code. They also extend the functionality of some existing interface elements, including
+      for example an auto-complete function for input fields.
+
+
+    </div>
+  </div>
+  <br><br>
+  <!-- .......................page..................... -->
+  <h1>images</h1>
+  <div class="div1">
+    <img src="/img/pex1.jpeg" alt="" class="rounded" width="200px">
+    <img src="/img/pex2.jpeg" alt="" class="rounded-circle" width="200px">
+    <img src="/img/1995.jpg" alt="" class="img-thumbnail">
+  </div>
+  <!-- .....................page................... -->
+
+  <br>
+  <br>
+  <h1> <strong>Table</strong> <br> <sub>[table-striped, table-bordered, table-hover, table-dark, table-borderless, (tr
+      td) ]</sub></h1>
+  <div class="div">
+    <table class="table table-hover ">
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Roll No:
+        </th>
+        <th>
+          Eamil
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          gokul
+        </td>
+        <td>
+          2026j0768
+        </td>
+        <td>
+          gokulkrishna2003@gmail.com
+        </td>
+      </tr>
+      <tr>
+        <td>
+          gokul
+        </td>
+        <td>
+          2026j0768
+        </td>
+        <td>
+          gokulkrishna2003@gmail.com
+        </td>
+      </tr>
+      <tr>
+        <td>
+          gokul
+        </td>
+        <td>
+          2026j0768
+        </td>
+        <td>
+          gokulkrishna2003@gmail.com
+        </td>
+      </tr>
+    </table>
+  </div>
+  <br><br><br>
+  <!-- ...................page.......................... -->
+  <h1>alerts ! & Alerts link</h1>
+  <div class="container mt-3" style="width: 50%; height: 85vh; float:inline-start;">
+    <ins style="text-decoration: none;">Alerts ! & Alert link </ins>
+    <div class="alert alert-success">
+      <strong>success!</strong> indicates a successful or positive action.
+    </div>
+    <div class="alert alert-danger">
+      <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+    </div>
+    <div class="alert alert-info">
+      <strong>info!</strong> This alert box could indicate a neutral informative change or action.
+    </div>
+    <div class="alert alert-warning">
+      <strong>warning!</strong> This alert box could indicate a neutral informative change or action.
+    </div>
+    <div class="alert alert-primary">
+      <strong>primary!</strong>Indicates an important action.
+    </div>
+    <div class="alert alert-secondary">
+      <strong>secondary!</strong> Indicates a slightly less important action.
+    </div>
+    <div class="alert alert-dark">
+      <strong>dark!</strong>Dark grey alert.
+    </div>
+  </div>
+  <!-- ..........................page........................... -->
+
+  <br><br><br><br><b><br><br><br></b><br><br><br><br><b><br><br><br></b><br><br><br><br><b><br><br><br></b><br><br><br><br><b><br><br><br></b>
+  <h1>buttons</h1>
+  <div class="container mt-3" style="width: 30%; height: 55vh; float: inline-start;">
+    <button type="button" class="btn">basic</button>
+    <br>
+
+    <button type="button" class="btn-primary">primary</button>
+    <br>
+    <br>
+    <button type="button" class="btn-secondary">secondary</button>
+    <br>
+    <br>
+    <button type="button" class="btn-dark">dark</button>
+    <br>
+    <br>
+    <button type="button" class="btn-warning">warning</button>
+    <br>
+    <br>
+    <button type="button" class="btn-info">info</button>
+    <br>
+    <br>
+    <button type="button" class="btn-danger">danger</button>
+  </div>
+  <!-- .................page............... -->
+  <h1>button groups</h1>
+  <br>
+  <a href="#" class="btn btn-success">Link Button</a>
+  <button type="button" class="btn btn-success">Button</button>
+  <input type="button" class="btn btn-success" value="Input Button">
+  <input type="submit" class="btn btn-success" value="Submit Button">
+  <input type="reset" class="btn btn-success" value="Reset Button">
+  <br><br><br><br>
+  <!-- .............Page.................. -->
+  <h1>button-outline</h1>
+  </button>
+  <button type="button" class="btn btn-outline-success">Success</button>
+  <button type="button" class="btn btn-outline-info">Info</button>
+  <button type="button" class="btn btn-outline-warning">Warning</button>
+  <button type="button" class="btn btn-outline-danger">Danger</button>
+  <button type="button" class="btn btn-outline-dark">Dark</button>
+  <button type="button" class="btn btn-outline-light text-dark">Light</button>
+  <br><br><br><br>
+  <h1>display-grid </h1>
+  <div class="d-grid gap-3" style="float:left;">
+    <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+    <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+    <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+  </div>
+  <br><br><br><br>
+  <h1>spinner-border</h1>
+  <button class="btn btn-primary">
+    <span class="spinner-border spinner-border-sm"></span>
+  </button>
+  <button class="btn btn-primary">
+    <span class="spinner-border spinner-border-sm"></span>
+    loading..
+  </button>
+  <button class="btn btn-primary">
+    <span class="spinner-grow spinner-grow"></span>
+  </button>
+  <button class="btn btn-primary">
+    <span class="spinner-grow spinner-grow-sm"></span>loading..
+  </button>
+  <br><br>
+  <h1>btn-group</h1>
+  <div class="btn-group">
+    <button type="button " class="btn btn-primary">
+      Bike
+    </button>
+    <button type="button" class="btn btn-secondary">
+      Car
+    </button>
+    <button type="button" class="btn btn-danger">Bus</button>
+  </div>
+  <!-- ------------------page--------------------- -->
+  <br><br><br><br>
+  <h1><strong>badges</strong> </h1>
+  <h1>example heading <span class="badge rounded-pill bg-success">Eh1</span></h1>
+  <h2>example heading <span class="badge rounded-pill bg-success">Eh1</span></h2>
+  <h3>example heading <span class="badge rounded-pill bg-success">Eh1</span></h3>
+  <h4>example heading <span class="badge rounded-pill bg-success">Eh1</span></h4>
+  <h5>example heading <span class="badge rounded-pill bg-success">Eh1</span></h5>
+  <h6>example heading <span class="badge rounded-pill bg-success">Eh1</span></h6>
+  <br>
+  <!-- ......................page....................... -->
+  <h1>badge</h1>
+  <button type="button" class="btn btn-danger">messages <span class="badge bg-dark">7</span></button>
+  <button type="button" class="btn btn-danger">notification <span class="badge bg-dark">7</span></button>
+  <br><br>
+  <!-- ..................page.............................. -->
+  <h1>progress</h1>
+  <div class="progress">
+    <div class="progress-bar-striped progress-bar-animated bg-success rounded-pill  "
+      style="width: 60%;text-align:center;">60%</div>
+  </div>
+  <!-- ........................page..........................-->
+  <br><br>
+  <h1>multiple progress bars</h1>
+  <div class="progress">
+    <div class="progress-bar bg-success" style="width: 60%;">60% free space</div>
+    <div class="progress-bar bg-warning" style="width: 30%;">30% free space</div>
+    <div class="progress-bar bg-danger" style="width: 10%;">10% free space</div>
+  </div>
+  <h1>pagination to each page</h1>
+  <div class="pagination mt-3">
+    <ul class="paginations">
+      <li class="page-item"><a class="page link" href="/css/fly.html">Previous </a></li>
+      <li class="page-item"><a class="page link" href="#">1 </a></li>
+      <li class="page-item"><a class="page link" href="#">2 </a></li>
+      <li class="page-item"><a class="page link" href="#">3 </a></li>
+      <li class="page-item"><a class="page link" href="#">next </a></li>
+    </ul>
+  </div>
+</body>
+
+</html>
