@@ -1,0 +1,15 @@
+pre{
+    color: hsl(322, 68%, 29%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: darkslategray;
+    background-image: url(/img/smailgpg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table,th,td
+{
+    border: 1px solid red;
+}
+th{
+    color: brown;
+}

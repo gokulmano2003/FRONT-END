@@ -1,0 +1,57 @@
+body {
+    background-image: url(/img/lion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+P {
+    color: rgb(224, 195, 25);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+table,
+th,
+td {
+    border: rgb(0, 0, 0);
+}
+
+table,
+th {
+    color: rgb(219, 170, 8);
+}
+
+ol {
+    color: rgb(203, 206, 17);
+}
+
+dt,
+dd {
+    color: rgb(230, 215, 16);
+}
+
+pre {
+    color: rgb(248, 225, 12);
+}
+
+h1 {
+    color: rgb(236, 214, 11);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: cadetblue;
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+a:active{
+    color: violet;
+    text-decoration: underline;
+}
