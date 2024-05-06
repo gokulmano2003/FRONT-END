@@ -1,0 +1,45 @@
+.div {
+
+    height: 100vh;
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+.fly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    animation: mymove 5s infinite;
+
+}
+
+@keyframes mymove {
+    0% {
+        transform: translateY(0px);
+    }
+
+    25% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    75% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+.div .cloud{
+    color: brown;
+}
+/* @keyframes mymove {
+    from {right: 100px;}
+    to {right: 700px;}
+  } */

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item1 {
+            grid-area: header;
+        }
+
+        .item2 {
+            grid-area: menu;
+        }
+
+        .item3 {
+            grid-area: main;
+        }
+
+        .item4 {
+            grid-area: right;
+        }
+
+        .item5 {
+            grid-area: footer;
+        }
+
+
+        .text {
+            display: grid;
+            grid-template-areas:
+                'header header header header header header'
+                'menu main main main right right'
+                'menu footer footer footer footer footer';
+            gap: 10px;
+            background-color: violet;
+
+            padding: 10px;
+
+        }
+
+        .text>div {
+            background-color: steelblue;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+
+        h1 {
+            border-bottom: 2px groove;
+            text-transform: uppercase;
+        }
+/* ......................page......................... */
+        div.div1 {
+            display: grid;
+            gap: 10px;
+            background-color: teal;
+            padding: 10px;
+        }
+
+        .haii {
+            background-color: rgb(58, 87, 116);
+            text-align: center;
+            padding: 20px;
+            font-size: 30px;
+        }
+
+        .head1 {
+            grid-column: 1 / span 2;
+            grid-row: 1;
+        }
+
+        .head2 {
+            grid-column: 3;
+            grid-row: 1 / span 2;
+        }
+
+        .head5 {
+            grid-column: 1 / span 3;
+            grid-row: 3;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>grid auto </h1>
+    <div class="text">
+        <div class="item1">header</div>
+        <div class="item2">menu</div>
+        <div class="item3">main</div>
+        <div class="item4">right</div>
+        <div class="item5">footer</div>
+    </div>
+
+    </div>
+    <br>
+    <h1>grid container</h1>
+    <div class="div1">
+        <div class="haii head1">1</div>
+        <div class="haii head2">2</div>
+        <div class="haii head3">3</div>
+        <div class="haii head4">4</div>
+        <div class="haii head5">5</div>
+    </div>
+</body>
+
+</html>

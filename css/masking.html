@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text {
+            -webkit-mask-image: url(/img/png..png);
+            mask-image: url(/img/png..png);
+            -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+        }
+
+        /* ..................page.................. */
+        .pgt {
+            display: inline-block;
+        }
+
+        .pgt a {
+            padding: 10px 30px;
+            text-decoration: none;
+            color: black;
+            float: left;
+
+        }
+
+        .pgt .active {
+            background-color: yellowgreen;
+            border-radius: 21px;
+        }
+
+        .pgt a:hover:not(.active) {
+            background-color: thistle;
+            border-radius: 21px;
+            transition: background-color .6s;
+        }
+
+        .border {
+            display: inline-block;
+        }
+
+        .border a {
+            padding: 10px 30px;
+            text-decoration: none;
+            color: black;
+            float: left;
+            border: 1px solid black;
+            /* margin tag use for next step */
+            /* margin: 0 5px; */
+
+        }
+        .border .active {
+            background-color: yellowgreen;
+        }
+
+        .border a:hover:not(.active) {
+            background-color: teal;
+            color: aliceblue;
+        }
+
+        .border a:first-child {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .border a:last-child {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .news {
+            column-count: 3;
+            column-gap: 15px;
+            column-rule: groove orange;
+        }
+
+        H1 {
+            column-span: all;
+        }
+        :root{
+            --green:hsl(340, 85%, 27%);
+            --blue:hwb(200 77% 18%);
+            --yellow:yellow;
+        }
+        .text2{
+            width: 50%;
+            height: 80vh;
+            background-color:rgb(88, 55, 55);
+        }
+        .var{
+            position: relative;
+            top: 40px;
+            left: 10px;
+            width: 97%;
+            height: 65vh;
+            background-color:var(--green);
+            color: var(--blue);
+        }
+        .var h2{
+            border-bottom: 2px solid var(--yellow);
+            color: var(--blue);
+        }
+        button{
+            background-color: rgb(88,55,55);
+            border-color: var(--yellow);
+            color: var(--blue);
+        }
+        @media screen and (max-width: 860px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+@media screen and (max-width:860px) {
+    .var{
+        
+            
+            left: 10px;
+            width: 97%;
+            height:70vh;
+            font-size: medium;
+           
+        }
+        .text2{
+            left: 50px;
+            width: 50%;
+            height: 80vh;
+            font-size: large;
+        }
+}
+    </style>
+</head>
+
+<body>
+    <div class="text">
+        <img src="/img/pex2.jpeg" alt="" width="600" height="600">
+    </div>
+    <h2>logo masking </h2>
+    <img src="/img/pex2.jpeg" alt="" width="600" height="400">
+    <br><br><br>
+    <!-- ...................page..................... -->
+    <H1>pagination</H1>
+    <div class="pgt">
+
+        <a href="#">&laquo;</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+    </div>
+    <br><br>
+    <h1>entites</h1>
+    <div class="border">
+        <a href="#">&#60;</a>
+        <a href="#">&#62;</a>
+    </div>
+    <h1>border</h1>
+    <div class="border">
+
+        <a href="#">&laquo;</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+
+    </div>
+    <h1>newspaper tag</h1>
+    <div class="news">
+        The only other bird species I can think of that connects with us like this are parrots. There is an immediate
+        mutual understanding between them and you. I’ve been observing a pair of crows that have lived on a tall
+        lighthouse palm at the end of the garden in the Las Palmas complex in Arpora (Goa) for many years now — so many,
+        that I think the skyscraper property has probably been passed down from father to son and so on. No, they do not
+        nest in the palm tree — I carefully scrutinised it with binoculars, but there is a huge, dark mango tree just
+        next door where they may well have their nursery. They merely hang out on the lighthouse palm and ensure it is
+        pretty much their private skyscraper. Other species are not welcome — though they do usually allow a pair of
+        black-rumped flamebacks to scuttle up and down the trunk, rata-tat-tapping for insects. And occasionally, they
+        may have a couple of crow friends over for a gossip session.
+
+        Let a Brahminy kite sail over and they immediately scramble to intercept it and send it peevishly mewling on its
+        way. On one occasion, an exceptionally brave Brahminy kite took panga with them, corkscrewing down at them but
+        it was no match for the pair of crows that met the challenge and drove it off.
+    </div>
+    <!-- ..............page......................... -->
+    <h1>variable</h1>
+    <div class="text2">
+    <div class="var">
+        <h2>The United States of America</h2>
+        <p>The United States of America (USA or U.S.A.), commonly known as the United States (US or U.S.) or America, is
+            a country primarily located in North America, between Canada and Mexico. It is a federation of 50 states, a
+            federal capital district (Washington, D.C.), and 326 Indian reservations that overlap with state boundaries.
+            Outside the union of states, it asserts sovereignty over five major unincorporated island territories and
+            various uninhabited islands.[i] The country has the world's third-largest land area,[c] largest maritime
+            exclusive economic zone, and the third-largest population, exceeding 334 million.[j]
+
+            Paleo-Indians migrated across the Bering land bridge more than 12,000 years ago. British colonization led to
+            the first settlement of the Thirteen Colonies in Virginia in 1607. Clashes with the British Crown over
+            taxation and political representation sparked the American Revolution and the Revolutionary War of
+            1775–1783. The Second Continental Congress voted for independence and formally declared independence on July
+            4, 1776. The country began expanding across North America. As more states were admitted, sectional division
+            over slavery led to the secession of the Confederate States of America, which fought the remaining states of
+            the Union during the 1861–1865 American Civil War. With the Union's victory and preservation, slavery was
+            abolished nationally. By 1900, the United States had established itself as a great power, becoming the
+            world's largest economy. After Japan's attack on Pearl Harbor in December 1941, the U.S. entered World War
+            II. The aftermath of the war left the U.S. and the Soviet Union as the world's two superpowers and led to
+            the Cold War, during which both countries engaged in a struggle for ideological dominance and international
+            influence. Following the Soviet Union's collapse and the end of the Cold War in 1991, the U.S. emerged as
+            the world's sole superpower.</p>
+            <button>yes</button>
+            <button>no</button>
+    </div>
+</div>
+</body>
+
+</html>

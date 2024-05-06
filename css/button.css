@@ -1,0 +1,130 @@
+.btn-group {
+    height: 200px;
+ }
+
+ .btn {
+    padding: 30px;
+    border: none;
+    background-color: rgb(111, 180, 102);
+    color: white;
+    width: 20%;
+    float: left;
+    font-size: larger;
+    cursor: pointer;
+ }
+
+ .btns {
+    padding: 30px;
+    border: none;
+    background-color: rgb(112, 145, 108);
+    color: white;
+    width: 20%;
+    font-size: larger;
+    float: left;
+    cursor: not-allowed;
+ }
+
+ .btn-group .btn:hover {
+    color: black;
+    border: 4px groove hwb(0 0% 100%);
+    background-color: hsl(59, 56%, 50%);
+ }
+
+ /* ......................page......................... */
+ .Hovers {
+    display: inline-block;
+    padding: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(89, 42, 165);
+    color: white;
+    width: 45%;
+    font-size: 35px;
+    cursor: pointer;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+
+ }
+
+ .Hovers span {
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+ }
+
+ .Hovers span::before {
+    cursor: pointer;
+    content: '\00BB';
+    top: 0;
+    opacity: 0;
+ }
+
+ .Hovers:hover span {
+    padding-left: 25px;
+ }
+
+ .Hovers:hover span::before {
+    opacity: 1;
+    right: 0;
+ }
+
+ /* ......................page.................. */
+ .button {
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    color: bisque;
+    background-color: hsl(51, 94%, 42%);
+    border-radius: 15px;
+    box-shadow: 0 9px #829b93;
+ }
+
+ .button:hover {
+    background-color: #33413c;
+ }
+
+ .button:active {
+    background-color: hsla(339, 22%, 28%, 0.644);
+    box-shadow: 0 5px hsla(207, 25%, 44%, 0.548);
+    transform: translatey(6px);
+ }
+
+ /* ............page.................... */
+ img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 45%;
+ }
+ .img1 {
+    width: 200px;
+    height: 300px;
+    object-fit:contain;
+ }
+ .img2 {
+    width: 200px;
+    height: 300px;
+    object-fit:fill;
+ }
+ .img3 {
+    width: 200px;
+    height: 300px;
+    object-fit:scale-down;
+ }
+ .img4 {
+    width: 200px;
+    height: 300px;
+    object-fit:none;
+ }
+ .text1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+ }

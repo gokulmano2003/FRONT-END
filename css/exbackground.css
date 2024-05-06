@@ -1,0 +1,265 @@
+div{
+    background-color: violet;
+    padding:20px;
+    border:solid;
+    border-style:groove;
+    margin: 40px;
+    outline: blue solid;
+    outline-offset: 15px;
+
+
+  }
+  /* ....................................page......................... */
+  p {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 20px;
+      color: rgb(2, 126, 2);
+  }
+
+  .bi-cloud-arrow-down {
+      color: rgb(224, 192, 6);
+
+  }
+
+  a {
+      color: rgb(196, 35, 35);
+  }
+
+  a:visited {
+      color: green;
+  }
+
+  a:hover {
+      color: hotpink;
+  }
+
+  a:active {
+      color: blue;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+  a:visited {
+      text-decoration: none;
+  }
+
+  a:hover {
+      text-decoration: underline;
+  }
+
+  a:active {
+      text-decoration: underline;
+  }
+
+  a {
+      background-color: blue;
+  }
+
+  a:visited {
+      background-color: chocolate;
+  }
+
+  a:hover {
+      background-color: violet;
+  }
+
+  a:active {
+      background-color: tomato;
+  }
+
+  a:link,
+  a:visited {
+      background-color: slategray;
+      color: rgb(226, 226, 15);
+      padding: 50px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+
+  }
+
+  a:hover,
+  a:active {
+      background-color: black;
+      color: aliceblue;
+  }
+
+  /* ..........................page............................ */
+
+  table,
+  th,
+  td {
+      border: 1px solid;
+  }
+
+  a:link,
+  a:visited {
+      color: chartreuse;
+      background-color: teal;
+  }
+
+  a:active,
+  a:hover {
+      color: yellow;
+      background-color: blueviolet;
+  }
+
+  table,
+  th,
+  td {
+
+      border: 1px solid black;
+      border-collapse: collapse;
+      text-align: center;
+      padding: 9px;
+  }
+
+  body {
+      background: linear-gradient(to right, #d8b038, #e64545, );
+  }
+
+  */
+
+  /* ..............................page............................... */
+  .multi {
+      position: relative;
+      display: inline-block;
+  }
+
+  .multi1 {
+      background-color: #4caf50;
+      color: aliceblue;
+      padding: 20px;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+  }
+
+  .multi2 {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+
+  }
+
+  .multi2 a {
+      color: black;
+      padding: 10px 20px;
+      text-decoration: none;
+      display: block;
+
+  }
+
+  .multi a:hover {
+      background-color: #c7c4c4;
+  }
+
+  .multi:hover .multi2 {
+      display: block;
+  }
+
+  .drop {
+      position: absolute;
+      display: inline-block;
+      padding: 20px;
+      border: none;
+      cursor: pointer;
+  }
+
+  .drop1 {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+  }
+
+  .drop:hover .drop1 {
+      display: block;
+  }
+
+  .drop2 {
+      padding: 15px;
+      text-align: center;
+  }
+
+  /* ............................page............................ */
+  #rcorners1 {
+      border-radius: 15px 50px 30px 5px;
+      background-color: #ff0000;
+      padding: 20px;
+      width: 200px;
+      height: 150px;
+  }
+
+  #rcorners2 {
+      border-radius: 15px 50px 30px;
+      background-color: #f80606;
+      padding: 20px;
+      width: 200px;
+      height: 150px;
+  }
+
+  #rcorners3 {
+      border-radius: 15px 50px;
+      background-color: #f10101;
+      padding: 20px;
+      width: 200px;
+      height: 150px;
+  }
+
+  #rcorners4 {
+      border-radius: 15px;
+      background-color: #ff0000;
+      padding: 20px;
+      width: 200px;
+      height: 150px;
+
+  }
+
+  #borderimg1 {
+      width: 350px;
+      height: 50px;
+      border: 10px solid transparent;
+      padding: 15px;
+      border-image: url(/img/border-image1.png)50 round;
+  }
+
+  #borderimg2 {
+      width: 350px;
+      height: 50px;
+      border: 10px solid transparent;
+      padding: 15px;
+      border-image: url(/img/images.png) 68 round;
+  }
+
+  #borderimg3 {
+      width: 350px;
+      height: 50px;
+      border: 10px solid transparent;
+      padding: 15px;
+      border-image: url(/img/images3.png) 40 round;
+  }
+
+  #borderimg {
+      width: 350px;
+      height: 50px;
+      border: 10px solid transparent;
+      padding: 15px;
+      border-image: url(/img/images2.jpg) 68 round;
+  }
+  .example{
+      width: 40%;
+      height: 800px;
+      border: 3px groove;
+      background-image: url(/img/flower.jpg),url(/img/paper.jpg);
+      background-position:right bottom, left top;
+      background-repeat: no-repeat,repeat;
+      padding: 20px;
+  }

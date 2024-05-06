@@ -1,0 +1,246 @@
+  /* body {
+            width: 80%;
+            height: 80vh;
+            background-image: url(/img/pppp.jpg);
+            background-position: center;
+            background-size:cover;
+            background-repeat:repeat;
+        }
+
+        div.ex1 {
+            background-color: aquamarine;
+            border: 2px solid black;
+            padding: 15px;
+        }
+        div.ex2{
+            background-color: transparent;
+            border: 2px solid black;
+            padding: 15px;
+        } */
+  div.ex1 {
+      background-image: linear-gradient(pink, yellow, red);
+      padding: 60px;
+      border: 2px solid black;
+  }
+
+  div.ex2 {
+      background-image: radial-gradient(pink, yellow, red);
+      padding: 110px;
+      border: 2px groove black;
+  }
+
+  div.ex3 {
+      background-image: conic-gradient(pink, yellow, red);
+      padding: 100px;
+      border: 2px groove black;
+  }
+
+  div.ex4 {
+      background-image: conic-gradient(yellow, red, orangered, blue);
+      padding: 100px;
+      border: 2px groove black;
+
+  }
+
+  div.ex5 {
+      background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+      padding: 100px;
+      border: 2px groove black;
+  }
+
+  div.ex6 {
+      background-image: conic-gradient(green 0deg, green 90deg, yellow 90deg, yellow 180deg, red 180deg, red 270deg, blue 270deg);
+      padding: 200px;
+      border: 2px groove black;
+      border-radius: 100%;
+
+  }
+
+  div.div1 {
+      width: 200px;
+      height: 200px;
+      background-color: rgba(255, 68, 0, 0.616);
+      transition: width 4s, height 6s;
+      transition-duration: 2s;
+      transition-property: height;
+      transition-delay: 2s;
+      transition-timing-function: ease-in-out;
+  }
+
+  div.div1:hover {
+      height: 400px;
+  }
+
+  div.div2 {
+      width: 200px;
+      height: 200px;
+      background-color: hsl(138, 91%, 48%);
+      transition: width 4s, height 6s, transform 2s;
+      transition-delay: 2s;
+
+  }
+
+  div.div2:hover {
+      width: 300px;
+      height: 300px;
+      transform: rotate(270deg);
+  }
+
+  div.div3 {
+      width: 200px;
+      height: 200px;
+      text-align: center;
+      font-size: larger;
+      background-color: rgba(231, 63, 33, 0.623);
+      animation-name: div3;
+      animation-duration: 8s;
+      animation-delay: 3s;
+  }
+
+  @keyframes div3 {
+      from {
+          background-color: orange;
+      }
+
+      to {
+          background-color: yellowgreen;
+      }
+  }
+
+  div.div4 {
+      width: 200px;
+      height: 200px;
+      background-color: cadetblue;
+      animation-name: div4;
+      animation-duration: 11s;
+      animation-delay: 2s;
+  }
+
+  @keyframes div4 {
+      0% {
+          background-color: rgba(255, 0, 200, 0.733);
+      }
+
+      30% {
+          background-color: chocolate;
+      }
+
+      60% {
+          background-color: lime;
+      }
+
+      100% {
+          background-color: crimson;
+      }
+  }
+
+  div.div5 {
+      width: 200px;
+      height: 200px;
+      background-color: crimson;
+      position: relative;
+      animation-name: div5;
+      animation-duration: 4s;
+
+  }
+
+  @keyframes div5 {
+      0% {
+          background-color: crimson;
+          left: 0px;
+          top: 0px;
+      }
+
+      30% {
+          background-color: darkgreen;
+          left: 200px;
+          top: 0px;
+      }
+
+      60% {
+          background-color: darkkhaki;
+          left: 200px;
+          top: 200px;
+      }
+
+      80% {
+          background-color: darkmagenta;
+          left: 0px;
+          top: 200px;
+      }
+
+      100% {
+          background-color: crimson;
+          left: 0px;
+          top: 0px;
+      }
+
+  }
+
+  div.div6 {
+      width: 200px;
+      height: 200px;
+      background-color: firebrick;
+      position: relative;
+      animation-name: div6;
+      animation-duration: 4s;
+      animation-delay: 3s;
+  }
+
+  @keyframes div6 {
+      0% {
+          background-color: crimson;
+          left: 0px;
+          bottom: 0px;
+      }
+
+      30% {
+          background-color: darkgreen;
+          left: 200px;
+          bottom: 0px;
+      }
+
+      60% {
+          background-color: darkkhaki;
+          left: 200px;
+          bottom: 200px;
+      }
+
+      80% {
+          background-color: darkmagenta;
+          left: 0px;
+          bottom: 200px;
+      }
+
+      100% {
+          background-color: crimson;
+          left: 0px;
+          bottom: 0px;
+      }
+  }
+
+  .tooltip {
+      display: inline-block;
+      border-bottom: 3px dotted black;
+      position: relative;
+      cursor: pointer;
+  }
+
+  .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 20vh;
+      height: 20px;
+      background-color: black;
+      text-align: center;
+      color: #fff;
+      border-radius: 8px;
+      padding: 5px 0;
+      /* the position step */
+      position: absolute;
+      z-index: 1px;
+  }
+
+  .tooltip:hover .tooltiptext {
+      visibility: visible;
+      cursor:grab;
+  }

@@ -1,0 +1,56 @@
+nav li {
+    padding: 20px;
+    margin: 20px;
+    display: inline;
+    border-radius: 10px;
+    border-bottom: 8px;
+    border-top: 8px;
+    position: relative;
+    top: 15px;
+}
+
+a:link,
+a:visited {
+    color: cornflowerblue;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+a:hover {
+    color: rgb(23, 27, 27);
+    text-decoration: underline;
+    background-color: yellowgreen;
+    border-radius: 40px;
+}
+
+a:active {
+    color: teal;
+    text-decoration: underline;
+}
+
+.h1 {
+    border: 20px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 350px;
+    width: 39%;
+    height: 50px;
+    position: sticky;
+    top: 5px;
+    text-align: center;
+}
+
+body {
+    background-image: url(/img/111.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 15.0;
+}
+
+img {
+    float:inline-start;
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+    margin-right: 10px;
+}
