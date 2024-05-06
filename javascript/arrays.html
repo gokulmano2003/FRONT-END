@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h3>The length property returns the length of an array:</h3>
+    <p id="main"></p>
+    <script>
+        const stud = ["gokul", "raja", "krishna", "mrgokul"];
+        let size = stud.length;
+        document.getElementById('main').innerHTML = size;
+    </script><br>
+    <h3>The tostring() method returns an array as a comma separated string:</h3>
+
+    <p id="demo"></p>
+    <script>
+        const fruit = ["Banana", "Orange", "Apple", "Mango"];
+        document.getElementById("demo").innerHTML = fruit.toString();
+    </script>
+    <br>
+    <h3>The at() method returns an array as a comma separated string:</h3>
+
+    <p id="demo1"></p>
+    <script>
+        const name = ["banana", "krishna", "apple", "mango"];
+        let reg = name.at(1)
+        document.getElementById("demo1").innerHTML = reg;
+    </script>
+    <br>
+    <h3>The join() method returns an array as a comma separated string:</h3>
+
+    <p id="type"></p>
+    <script>
+        const name1 = ["banana", "krishna", "apple", "mango"];
+        document.getElementById("type").innerHTML = name1.join("*");
+    </script>
+    <br>
+    <h3>The pop() method returns an array as a comma separated string:</h3>
+
+    <p id="type1"></p>
+    <p id="type2"></p>
+    <script>
+        const name2 = ["orange", "apple", "banana", "mango"];
+        document.getElementById("type1").innerHTML = name2;
+        name2.pop();
+        document.getElementById("type2").innerHTML = name2;
+    </script>
+    <P><ins>last line</ins></P>
+    <br><br>
+
+
+ <h3>The push() method returns an array as a comma separated string:</h3>
+
+    <p id="ben1"></p>
+    <p id="ben2"></p>
+    <script>
+        const benten = ["orange", "apple", "banana", "mango"];
+        document.getElementById("ben1").innerHTML =benten;
+        benten.push("benten");
+        document.getElementById("ben2").innerHTML = benten;
+    </script>
+    <P><ins>last line</ins></P>
+    <br><br>
+    <h3>The shift() method returns an array as a comma separated string:</h3>
+
+    <p id="ben3"></p>
+    <p id="ben4"></p>
+    <script>
+        const benten1 = ["orange", "apple", "banana", "mango"];
+        document.getElementById("ben3").innerHTML = benten1;
+        benten1.shift();
+        document.getElementById("ben4").innerHTML = benten1;
+    </script>
+    <P><ins>first line</ins></P>
+    <br><br>
+    <h3>The unshift() method returns an array as a comma separated string:</h3>
+
+    <p id="ben5"></p>
+    <p id="ben6"></p>
+    <script>
+        const benten2 = ["orange", "apple", "banana", "mango"];
+        document.getElementById("ben5").innerHTML = benten2;
+        benten2.unshift("benten");
+        document.getElementById("ben6").innerHTML = benten2;
+    </script>
+    <P><ins>first line</ins></P>
+</body>
+
+</html>

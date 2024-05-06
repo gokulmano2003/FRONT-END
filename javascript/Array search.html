@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>indexOf & lastindex & includes & find & findindex & findlast & findlastindex methods</h2>
+    <p id="demo"></p>
+    <script>
+        const fruite = ["mango", "orange", "apple", "banana"];
+        let position = fruite.indexOf("mango") + 2;
+
+        document.getElementById("demo").innerHTML = "mango is found in position" + position;
+    </script>
+    <h1>array sort</h1>
+    <p> Alpabetic sort<strong>sort & revers & toSorted & toReversed & Object & </strong></p>
+    <p id="demo1"></p>
+    <p id="dmo"></p>
+
+    <script>
+        const cool = ["Banana", "Apple", "cat", "eye"];
+        document.getElementById("demo1").innerHTML = cool;
+
+        cool.sort();
+        document.getElementById("dmo").innerHTML = cool;
+    </script>
+    <p>numeric sort <strong>numeric sort & Random sort & math.min & math.max & home made min & home made max</strong>
+    </p>
+    <p id="dem1"></p>
+    <p id="demo2"></p>
+
+    <script>
+        const points1 = [40, 100, 1, 5, 25, 10];
+        document.getElementById("dem1").innerHTML = points1;
+
+        points1.sort(function (a, b) { return a - b });
+        document.getElementById("demo2").innerHTML = points1;
+    </script>
+
+    <p>Click the buttons to sort the array alphabetically or numerically.</p>
+
+    <button onclick="myFunction1()">Sort Alphabetically</button>
+    <button onclick="myFunction2()">Sort Numerically</button>
+
+    <p id="demo3"></p>
+
+    <script>
+        const points = [40, 100, 1, 5, 25, 10];
+        document.getElementById("demo3").innerHTML = points;
+
+        function myFunction1() {
+            points.sort();
+            document.getElementById("demo3").innerHTML = points;
+        }
+        function myFunction2() {
+            points.sort(function (a, b) { return a - b });
+            document.getElementById("demo3").innerHTML = points;
+        }
+    </script>
+    <p>Array Iteration <strong>
+            <pre> Array forEach
+        Array map()
+        Array flatMap()
+        Array filter()
+        Array reduce()
+        Array reduceRight()
+        <br> See Also:
+        Basic Array Methods
+        Array Search Methods
+        Array Sort Methods	Array every()
+        <br> Array some()
+        Array from()
+        Array keys()
+        Array entries()
+        Array with()
+        Array Spread (...)</pre>
+        </strong></p>
+    <p id="dm"></p>
+
+    <script>
+        const numbers = [45, 4, 9, 16, 25];
+
+        let txt = "";
+        numbers.forEach(myFunction);
+        document.getElementById("dm").innerHTML = txt;
+
+        function myFunction(value, index, array) {
+            txt += value + "<br>";
+        }
+    </script>
+    <h1><strong>js string methods</strong></h1>
+
+    <P> <strong>
+            <pre style="cursor: pointer;">
+                string length 
+                string charAt() 
+                sting chat CodeAt() 
+                string at() 
+                string[_] 
+                string slice() 
+                string substring()
+                string substr() 
+                string toUppercase() 
+                string toLowercase() 
+                string concat() 
+                string() 
+                string trim() 
+                string trimstrat() 
+                string trimend() 
+                string padstrat() 
+                string padend() 
+                string repeat() 
+                string replace() 
+                string string replaceAll() 
+                string split().
+            </pre>
+        </strong>
+    </P>
+
+    <h3>the length of the string is:</h3>
+
+    <P id="haii"></P>
+    <script>
+        let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        document.getElementById("haii").innerHTML = text.length;
+    </script>
+    <br>
+    <h3>string slice</h3>
+    <p id="hello"></p>
+    <script>
+        let text1 = "cricket,bat, ball, foodball";
+        let part = text1.slice(8, 26);
+        document.getElementById("hello").innerHTML = part;
+    </script>
+    <br>
+    <h3>The trimStart() Method</h3>
+
+    <p id="de"></p>
+
+    <script>
+        let text2 = "     gokulkrishna";
+        let text3 = text2.trimStart();
+
+        document.getElementById("de").innerHTML =
+            "Length text2 = " + text2.length + "<br>Length text3 = " + text3.length;
+    </script>
+    <br>
+    <h2>stirng search methods</h2>
+    <p><strong>
+            <pre style="cursor:pointer;">
+                string indexOf()
+                string lastindexOf()
+                string search()
+                string match()
+                string matchAll()
+                string includes()
+                string startswith()
+                string endswith()
+            </pre>
+        </strong></p>
+    <p>The position of the first occurrence of "locate" is:</p>
+    <p id="mo"></p>
+    <script>
+        var tet = "please locate where 'locate' occurs!";
+        var index = tet.indexOf("locate");
+        document.getElementById("mo").innerHTML = index;
+    </script>
+    <p><strong>preform a search fir "ain":</strong></p>
+    <p id="em"></p>
+    <script>
+        var tte = "the rain in SPAIN stays mainly in the plain";
+        const myArr = tte.match(/rain/);
+        document.getElementById("em").innerHTML = myArr.length + "" + myArr;
+    </script>
+    <h1>string Templates</h1>
+    <p><strong>
+            <pre>
+                Template string
+                template Literals
+            </pre>
+        </strong></p>
+    <p><strong><ins>Template string</ins></strong></p>
+    <p id="moon"></p>
+    <p>templates not supported in internat Explorer.</p>
+    <script>
+        var ttx = `he's ofthen called him "Johnny"`;
+        document.getElementById("moon").innerHTML = ttx;
+    </script>
+
+    <br>
+
+    <p><strong><ins>variable Substitutions</ins></strong></p>
+    <p id="join"></p>
+    <p>templates not supported in internat Explorer.</p>
+    <script>
+        var firstname = "Gokul";
+        var lastname = "krishna";
+        var ett = `welcome ${firstname},${lastname}!`;
+        document.getElementById("join").innerHTML = ett;
+    </script>
+    <br>
+    <h3>Expression Substitution</h3>
+    <p id="jio"></p>
+    <p>templates not supported in internat Explorer.</p>
+
+    <script>
+        var price = 30;
+        var VAT = 0.45;
+        var total = ` Total: ${(price * (1 + VAT)).toFixed(2)}`;
+        document.getElementById("jio").innerHTML = total;
+    </script><br>
+    <h2>Create a BigInt</h2>
+
+    <p id="eo"></p>
+    
+    <script>
+    let x = 123456789012345678901234567890n;
+    let y = BigInt("123456789012345678901234567890");
+    document.getElementById("eo").innerHTML = x + "<br>" + y;
+    </script>
+
+</body>
+
+</html>
