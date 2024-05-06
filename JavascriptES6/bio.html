@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .out {
+            background-color: rgba(0, 255, 255, 0.534);
+            border: 1px solid black;
+            display: inline-block;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex;justify-content: center;">
+        <div class="out">
+            <form id="myform">
+                <table>
+                    <tr>
+                        <td><label>Name:</label></td>
+                        <td><input type="text" id="name"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>age:</label></td>
+                        <td><input type="text" id="age"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>email:</label></td>
+                        <td><input type="text" id="email"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>pincode:</label></td>
+                        <td><input type="text" id="pincode"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>address:</label></td>
+                        <td><input type="text" id="address"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>contact:</label></td>
+                        <td><input type="number" id="contact"></td>
+                    </tr>
+                </table>
+            </form>
+            <input type="button" value="submit" onclick="first()" />
+            <input type="button" value="reset" onclick="last()" />
+
+        </div>
+    </div>
+    <div id="fname"></div>
+    <div id="fage"></div>
+    <div id="femail"></div>
+    <div id="fpincode"></div>
+    <div id="fdress"></div>
+    <div id="ftent"></div>
+    <script>
+
+        function first() {
+            var a = document.getElementById("name").value
+            document.getElementById("fname").innerHTML = "your name is:  " + a + "  welcome"
+            var b = document.getElementById("age").value
+            document.getElementById("fage").innerHTML = " your age:  " + b
+            var c = document.getElementById("email").value
+            document.getElementById("femail").innerHTML = "your email:  " + c
+            var d = document.getElementById("pincode").value
+            document.getElementById("fpincode").innerHTML = "your pincode:  " + d
+            var met = document.getElementById("address").value
+            document.getElementById("fdress").innerHTML = "your address" + met
+            var cat = document.getElementById("contact").value
+            document.getElementById("ftent").innerHTML = "your contac:  " + cat
+            localStorage.setItem("firstname", a)
+            localStorage.setItem("firstage", b)
+            localStorage.setItem("firstemail", c)
+            localStorage.setItem("firstpincode", d)
+            localStorage.setItem("firstdress", met)
+            localStorage.setItem("firsttent", cat)
+        }
+        window.onload = function () {
+            var car = localStorage.getItem("firstname")
+            var bike = localStorage.getItem("firstage")
+            var cycel = localStorage.getItem("firstemail")
+            var here = localStorage.getItem("firstpincode")
+            var para = localStorage.getItem("firstdress")
+            var were = localStorage.getItem("firsttent")
+            if (car) document.getElementById("name").value = car
+            if (bike) document.getElementById("age").value = bike
+            if (cycel) document.getElementById("email").value = cycel
+            if (here) document.getElementById("pincode").value = here
+            if (para) document.getElementById("address").value = para
+            if (were) document.getElementById("contact").value = were
+        }
+
+        function last() {
+            var form = document.getElementById("myform");
+            form.reset()
+        }
+    </script>
+</body>
+
+</html>

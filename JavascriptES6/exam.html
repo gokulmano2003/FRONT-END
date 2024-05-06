@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="fmplay">
+        <table>
+            <p>function click btn work</p>
+            <input type="text" id="name">
+        </table>
+        <div id="firshname"></div>
+    </form>
+
+    <input type="button" value="click" onclick="submit()">
+    <input type="button" value="reset" onclick="myreset()">
+   
+
+    <script>
+        function submit() {
+            var a = document.getElementById("name").value
+            document.getElementById("firshname").innerHTML = a
+        }
+        function myreset() {
+            var song = document.getElementById("fmplay");
+            song.reset()
+            var mxplay=document.getElementById("firshname");
+            mxplay.reset()
+        }
+    </script>
+
+</body>
+
+</html>

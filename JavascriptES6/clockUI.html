@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+            font-size: xx-large;
+        }
+
+        #news {
+            display: flex;
+            justify-content: center;
+            font-size: xx-large;
+        }
+
+        .out {
+            width: 50%;
+            height: 40vh;
+            background-color: tan;
+            box-shadow: 0px 1px 15px black;
+            border-radius: 10px;
+        }
+        .line{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .out:hover {
+            transform: tra;
+        }
+        body{
+            background-image:url();
+        }
+    </style>
+</head>
+
+<body>
+    <div class="line">
+        <div class="out">
+            <p>javascript clock</p>
+            <div id="news"></div>
+            <script> function krishna() {
+                    const a = new Date()
+                    var b = a.getHours()
+                    var c = a.getMinutes()
+                    var d = a.getSeconds()
+                    var gokul = b + ":" + c + ":" + d
+                    document.getElementById("news").innerHTML = gokul
+                }
+                setInterval(() => krishna(), 1000)
+                krishna()
+            </script>
+        </div>
+
+    </div>
+</body>
+
+</html>
